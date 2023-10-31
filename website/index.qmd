@@ -1,15 +1,17 @@
 ---
-title: "Git for Librarians"
+title: "Git course"
 ---
 
-Welcome to the git for Librarians workshop!
+Welcome to the git course!
 
-![](img/TB1_innen_Gallerie.webp)
+![Napoleon passing through Brandenburg Gate](img/BG1.jpeg)
 
-![](img/geheimtipp-muenchen-juristische-bibliothek-1.jpeg)
+![Brandenburg Gate, 1928](img/BG2.jpeg){width="725"}
 
-![](img/Grimm-Zentrum_Leseterrassen.jpeg){fig-align="middle"}
+![Brandenburg Gate in the 1930ies](img/BG3.jpeg){width="725"}
 
-![](img/ETH_Z%C3%BCrich_im_Abendlicht.jpg)
+![East-West border of Germany in front of Brandenburg Gate](img/BG4.jpeg){width="725"}
 
-![](img/Bibliothek_der_TU_Mu%CC%88nchen_12.jpeg)
+![People unite in front of Brandenburg Gate shortly before the fall of the Berlin Wall, 1989.](img/BG5.jpeg){width="725"}
+
+![Solidarity with Ukraine, Brandenburg Gate 2022.](img/BG7.jpeg){width="725"}

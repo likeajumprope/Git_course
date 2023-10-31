@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Git for Librarians",
+    "title": "Git course",
     "section": "",
-    "text": "Welcome to the git for Librarians workshop!"
+    "text": "Welcome to the git course!\n\n\n\nNapoleon passing through Brandenburg Gate\n\n\n\n\n\nBrandenburg Gate, 1928\n\n\n\n\n\nBrandenburg Gate in the 1930ies\n\n\n\n\n\nEast-West border of Germany in front of Brandenburg Gate\n\n\n\n\n\nPeople unite in front of Brandenburg Gate shortly before the fall of the Berlin Wall, 1989.\n\n\n\n\n\nSolidarity with Ukraine, Brandenburg Gate 2022."
   },
   {
     "objectID": "about.html",
@@ -74,7 +74,7 @@
     "href": "Git_Github_Gitlab.html#git-github-gitlab---what",
     "title": "Git, Gitlab, Github",
     "section": "",
-    "text": "The terminology around git can somehow be confusing."
+    "text": "The terminology around git can be confusing."
   },
   {
     "objectID": "Git_Github_Gitlab.html#git-the-software",
@@ -649,5 +649,26 @@
     "title": "Glossary",
     "section": "Branch",
     "text": "Branch\nAn identical copy of a repository. Branches are great to test features before pushing them into the main branch."
+  },
+  {
+    "objectID": "What_is_git.html#background",
+    "href": "What_is_git.html#background",
+    "title": "What is git?",
+    "section": "Background:",
+    "text": "Background:\nDr. Alice is a computational biologist working on a collaborative research project aimed at understanding the genetic factors influencing a specific disease. Her team comprises researchers from different institutions, and they need a centralized platform for data analysis and collaboration."
+  },
+  {
+    "objectID": "What_is_git.html#how-github-can-be-used",
+    "href": "What_is_git.html#how-github-can-be-used",
+    "title": "What is git?",
+    "section": "How GitHub can be used:",
+    "text": "How GitHub can be used:\n\nCode Repository:\nDr. Alice creates a GitHub repository to host the research project’s codebase. This repository contains analysis scripts, data preprocessing pipelines, and documentation. Collaborators can clone the repository to access the latest code and contribute to it."
+  },
+  {
+    "objectID": "What_is_git.html#data-sharing",
+    "href": "What_is_git.html#data-sharing",
+    "title": "What is git?",
+    "section": "Data Sharing:",
+    "text": "Data Sharing:\nThe team collects and curates extensive genetic data. Using Git Large File Storage (LFS) on GitHub, they store the data files in the same repository, ensuring version-controlled access to the data. The data is well-organized and documented in the repository’s README.\n\nCollaborative Analysis:\nCollaborators, including Dr. Bob and Dr. Carol, fork Dr. Alice’s repository and create feature branches for specific analysis tasks. They make changes, run experiments, and submit pull requests back to the main repository for review.\n\n\nIssue Tracking:\nDr. Alice uses GitHub’s issue tracking system to create tasks for different aspects of the project. For example, they may have tasks for data preprocessing, statistical analysis, and visualization. This ensures that everyone on the team knows what needs to be done and helps manage their progress.\n\n\nPeer Review:\nDr. Alice and her team use the pull request feature for peer review. They can comment on specific lines of code, suggest improvements, and discuss the results directly in the pull request. This transparent and collaborative process ensures the quality of the analysis.\n\n\nProject Management:\nDr. Alice creates a project board on GitHub to track the progress of different analysis components. They can move tasks across different columns, such as “To Do,” “In Progress,” and “Done,” to visualize the status of each task.\n\n\nDocumentation:\nDr. Alice maintains comprehensive project documentation in Markdown format within the repository. This includes explanations of the data sources, analysis methods, and results. Collaborators can contribute to and refine this documentation over time.\n\n\nReproducibility:\nWith the code, data, and documentation all in one place on GitHub, Dr. Alice’s team ensures that their research is highly reproducible. Other researchers can access the repository to replicate and validate the findings.\n\n\nData Citations:\nAs the project progresses, Dr. Alice obtains a DOI for the GitHub repository, making it citable in research papers. This promotes recognition of their work and encourages other researchers to use and build upon their findings.\nBy using GitHub for this collaborative research project, Dr. Alice and her team streamline their data analysis, foster transparency, and maintain an organized and reproducible research workflow. The platform facilitates teamwork, enabling researchers from different institutions to work together effectively."
   }
 ]

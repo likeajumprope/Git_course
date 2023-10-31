@@ -1,4 +1,4 @@
-# Git for Librarians
+# Git Course
 
 This repository contains the curriculum and material for the Git for Librarians workshop at the VALA Tech Camp.
 

@@ -22,11 +22,13 @@ Examples of the Markdown language:
 
 The number of `#` determine the level of the headline:
 
-    # A first level heading
+```         
+# A first level heading
 
-    ## A second level heading
+## A second level heading
 
-    ### A third level heading
+### A third level heading
+```
 
 # A first level heading
 
@@ -66,17 +68,17 @@ The contribution in Git is structured in commits. Commits are small, labeled cha
 
 2.  Click on the pencil icon to activate writing mode on the Readme.md
 
-    ![Click on the pencil button to activate editing mode.](images/Commit1.png){alt="Click on the pencil button to activate editing mode."}
+    ![Click on the pencil button to activate editing mode.](images/Commit1.png)
 
 3.  Add some information about the purpose of the repository.
 
 4.  Click the green *Commit changes* button at the top right.
 
-    ![Make your changes and click the green commit changes button.](images/Commit2.png){alt="Make your changes and click the green commit changes button."}
+    ![Make your changes and click the green commit changes button.](images/Commit2.png)
 
 5.  Write a precise commit message.
 
-    ![Formulate a precise commit message.](images/Commit3png-01.png){alt="Formulate a precise commit message. Commit your changes."}
+    ![Formulate a precise commit message. Commit your changes.](images/Commit3png-01.png)
 
 6.  Commit your changes.
 

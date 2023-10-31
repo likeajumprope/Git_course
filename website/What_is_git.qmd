@@ -17,18 +17,43 @@ In addition it allows for:
 -   Massive resource of information, ideas, books, code, etc.
 -   Publishing and hosting of code and material, websites etc.
 
-# Git in a library context
+# Git in a rsearch context
 
-> What will you use Git(hub) for?
 
-## Scenario 1: Multiple librarians editing metadata for a collection
+## Background: 
+Dr. Alice is a computational biologist working on a collaborative research project aimed at understanding the genetic factors influencing a specific disease. Her team comprises researchers from different institutions, and they need a centralized platform for data analysis and collaboration.
 
-A librarian has exported a spreadsheet of metadata from a repository for cleaning and editing. She's working with a group of librarians and students, so they need to make sure edits don't conflict. They also need to be able to undo any edits and preserve the original metadata. Once edits are complete, the whole group wants to review the changes before re-ingesting the spreadsheet of metadata into the repository.
+## How GitHub can be used:
 
-## Scenatio 2: Publishing a wesbite of the library
+### Code Repository: 
+Dr. Alice creates a GitHub repository to host the research project's codebase. This repository contains analysis scripts, data preprocessing pipelines, and documentation. Collaborators can clone the repository to access the latest code and contribute to it.
 
-Librarians of a library decide that they want to create and publish a webiste for their library. They work on the code together and publish the webiste via github.
+## Data Sharing: 
+The team collects and curates extensive genetic data. Using Git Large File Storage (LFS) on GitHub, they store the data files in the same repository, ensuring version-controlled access to the data. The data is well-organized and documented in the repository's README.
 
-## Scenario 3: Publsihing a book together
+### Collaborative Analysis: 
+Collaborators, including Dr. Bob and Dr. Carol, fork Dr. Alice's repository and create feature branches for specific analysis tasks. They make changes, run experiments, and submit pull requests back to the main repository for review.
 
-Librarians of a libray want to publish a book on the proceedings of a community project. They decide to publish the book it as a web book via Github and Gitbook. They want to keep adding to the book, as the community project is an annual event.
+### Issue Tracking: 
+Dr. Alice uses GitHub's issue tracking system to create tasks for different aspects of the project. For example, they may have tasks for data preprocessing, statistical analysis, and visualization. This ensures that everyone on the team knows what needs to be done and helps manage their progress.
+
+### Peer Review: 
+Dr. Alice and her team use the pull request feature for peer review. They can comment on specific lines of code, suggest improvements, and discuss the results directly in the pull request. This transparent and collaborative process ensures the quality of the analysis.
+
+### Project Management: 
+Dr. Alice creates a project board on GitHub to track the progress of different analysis components. They can move tasks across different columns, such as "To Do," "In Progress," and "Done," to visualize the status of each task.
+
+### Documentation: 
+Dr. Alice maintains comprehensive project documentation in Markdown format within the repository. This includes explanations of the data sources, analysis methods, and results. Collaborators can contribute to and refine this documentation over time.
+
+### Reproducibility: 
+With the code, data, and documentation all in one place on GitHub, Dr. Alice's team ensures that their research is highly reproducible. Other researchers can access the repository to replicate and validate the findings.
+
+### Data Citations: 
+As the project progresses, Dr. Alice obtains a DOI for the GitHub repository, making it citable in research papers. This promotes recognition of their work and encourages other researchers to use and build upon their findings.
+
+By using GitHub for this collaborative research project, Dr. Alice and her team streamline their data analysis, foster transparency, and maintain an organized and reproducible research workflow. The platform facilitates teamwork, enabling researchers from different institutions to work together effectively.
+
+
+
+
