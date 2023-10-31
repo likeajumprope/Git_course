@@ -4,7 +4,7 @@ title: "Git course"
 
 Welcome to the git course!
 
-![Napoleon passing through Brandenburg Gate](img/BG1.jpeg)
+![Napoleon passing through Brandenburg Gate](img/BG1.jpeg){fig-align="center"}
 
 ![Brandenburg Gate, 1928](img/BG2.jpeg){width="725"}
 
