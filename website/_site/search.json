@@ -179,7 +179,7 @@
     "href": "Git_online.html",
     "title": "Getting to know Github.com",
     "section": "",
-    "text": "The repositories on Github are divided in two types of repositories:\n\nThose you have writing access to (your repositories)\nRepositories of other people that you can only view\n\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Librarian” into the search bar.\n\n\nThe search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.\n\nOther information that are revealed about the repositories are information such as the programming languages used (here: Ruby) and the number of stars the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under your stars.\n\nChallenge: Click on one of the repositories and have a look at the content!"
+    "text": "Git is structured in Repositories.\nThe repositories on Github are divided in two types of repositories:\n\nThose you have writing access to (your repositories)\nRepositories of other people that you can only view\n\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Librarian” into the search bar.\n\n\nThe search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.\n\nOther information that are revealed about the repositories are information such as the programming languages used (here: Ruby) and the number of stars the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under your stars.\n\nChallenge: Click on one of the repositories and have a look at the content!"
   },
   {
     "objectID": "Creating_your_first_repository.html",
@@ -235,7 +235,7 @@
     "href": "Your_first_commit.html#committing-on-github.com",
     "title": "Your first commit",
     "section": "Committing on Github.com",
-    "text": "Committing on Github.com\n\nChallenge: Add some information to the Readme.md file of your newly created github repository!\n\n\nClick on your newly created repository.\nClick on the pencil icon to activate writing mode on the Readme.md\n\n\n\nClick on the pencil button to activate editing mode.\n\n\nAdd some information about the purpose of the repository.\nClick the green Commit changes button at the top right.\n\n\n\nMake your changes and click the green commit changes button.\n\n\nWrite a precise commit message.\n\n\n\nFormulate a precise commit message.\n\n\nCommit your changes.\n\nCongratulations! You have made your first commit in Github!"
+    "text": "Committing on Github.com\n\nChallenge: Add some information to the Readme.md file of your newly created github repository!\n\n\nClick on your newly created repository.\nClick on the pencil icon to activate writing mode on the Readme.md\n\nAdd some information about the purpose of the repository.\nClick the green Commit changes button at the top right.\n\nWrite a precise commit message.\n\nCommit your changes.\n\nCongratulations! You have made your first commit in Github!"
   },
   {
     "objectID": "Forking.html",
@@ -312,7 +312,7 @@
     "href": "Pull_requests.html",
     "title": "Pull requests (PRs)",
     "section": "",
-    "text": "Branches are a good way to test edits to your repository and see whether you like them. But they would be useless if they would be continuously developing independently of each other.\nLuckily there is a way to fuse different branches!\nIt’s now time to merge and update your main branch with your edits. This can be achieved by creating a pull request.\n\n\n\nBranches can be merged by a pull request.\n\n\n\nChallenge: Create your first pull request.\n\n1. Click on the create a pull request button:\n\n\nOpen a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let’s keep the merge direction from Readme.edits -> main.\n\nWrite a message for your pull request and click the create pull request button.\nBecause you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.\n\n\n5. Congratulations! You have merged your first pull request!\n\n\n\nYou were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.\n\n\n\nThe pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in."
+    "text": "Branches are a good way to test edits to your repository and see whether you like them. But they would be useless if they would be continuously developing independently of each other.\nLuckily there is a way to fuse different branches!\nIt’s now time to merge and update your main branch with your edits. This can be achieved by creating a pull request.\n\n\n\nBranches can be merged by a pull request.\n\n\n\nChallenge: Create your first pull request.\n\n1. Click on the create a pull request button:\n\n\nOpen a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let’s keep the merge direction from Readme.edits -&gt; main.\n\nWrite a message for your pull request and click the create pull request button.\nBecause you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.\n\n\n5. Congratulations! You have merged your first pull request!\n\n\n\nYou were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.\n\n\n\nThe pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in."
   },
   {
     "objectID": "Github_desktop.html",
@@ -417,7 +417,7 @@
     "href": "Github_desktop2.html",
     "title": "Importing an existing project",
     "section": "",
-    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File > Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create repository.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content."
+    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File &gt; Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create repository.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content."
   },
   {
     "objectID": "Github_desktop2.html#file-size-limits-and-licenses",
@@ -647,8 +647,8 @@
     "objectID": "Glossary.html#branch",
     "href": "Glossary.html#branch",
     "title": "Glossary",
-    "section": "Branch",
-    "text": "Branch\nAn identical copy of a repository. Branches are great to test features before pushing them into the main branch."
+    "section": "",
+    "text": "An identical copy of a repository. Branches are great to test features before pushing them into the main branch."
   },
   {
     "objectID": "What_is_git.html#background",
@@ -670,5 +670,61 @@
     "title": "What is git?",
     "section": "Data Sharing:",
     "text": "Data Sharing:\nThe team collects and curates extensive genetic data. Using Git Large File Storage (LFS) on GitHub, they store the data files in the same repository, ensuring version-controlled access to the data. The data is well-organized and documented in the repository’s README.\n\nCollaborative Analysis:\nCollaborators, including Dr. Bob and Dr. Carol, fork Dr. Alice’s repository and create feature branches for specific analysis tasks. They make changes, run experiments, and submit pull requests back to the main repository for review.\n\n\nIssue Tracking:\nDr. Alice uses GitHub’s issue tracking system to create tasks for different aspects of the project. For example, they may have tasks for data preprocessing, statistical analysis, and visualization. This ensures that everyone on the team knows what needs to be done and helps manage their progress.\n\n\nPeer Review:\nDr. Alice and her team use the pull request feature for peer review. They can comment on specific lines of code, suggest improvements, and discuss the results directly in the pull request. This transparent and collaborative process ensures the quality of the analysis.\n\n\nProject Management:\nDr. Alice creates a project board on GitHub to track the progress of different analysis components. They can move tasks across different columns, such as “To Do,” “In Progress,” and “Done,” to visualize the status of each task.\n\n\nDocumentation:\nDr. Alice maintains comprehensive project documentation in Markdown format within the repository. This includes explanations of the data sources, analysis methods, and results. Collaborators can contribute to and refine this documentation over time.\n\n\nReproducibility:\nWith the code, data, and documentation all in one place on GitHub, Dr. Alice’s team ensures that their research is highly reproducible. Other researchers can access the repository to replicate and validate the findings.\n\n\nData Citations:\nAs the project progresses, Dr. Alice obtains a DOI for the GitHub repository, making it citable in research papers. This promotes recognition of their work and encourages other researchers to use and build upon their findings.\nBy using GitHub for this collaborative research project, Dr. Alice and her team streamline their data analysis, foster transparency, and maintain an organized and reproducible research workflow. The platform facilitates teamwork, enabling researchers from different institutions to work together effectively."
+  },
+  {
+    "objectID": "Your_first_commit.html#the-readme.md",
+    "href": "Your_first_commit.html#the-readme.md",
+    "title": "Your first commit",
+    "section": "",
+    "text": "We just created a README.md file when initializing your first repository.\nThe README.md is often the first item a visitor will see when visiting your repository. README files typically include information on:\n\nThe purpose and content of the rpository\nhow to contribute to the repository (sometimes separated in a different file called Contributing.md)\n\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:"
+  },
+  {
+    "objectID": "Branching.html#creating-a-new-branch",
+    "href": "Branching.html#creating-a-new-branch",
+    "title": "Branching",
+    "section": "",
+    "text": "Let’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive language the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits to your repository and see whether you like them. If you are not happy with your changes, you can just disregard of your branch and the changes will never affect the content of your main repository.\nDifferent branches can develop independently and in parallel of each other."
+  },
+  {
+    "objectID": "Creating_your_first_repository.html#creating-a-new-repository",
+    "href": "Creating_your_first_repository.html#creating-a-new-repository",
+    "title": "Creating your first repository",
+    "section": "",
+    "text": "You have two options when creating a new repository.\n\nClick on the + next to your profile image in the top right corner of the screen\nGo to the repositories tab within your profile page and click the New button.\n\n\n\n\n\n\n\nChallenge: Create a new repository.\n\n\nChoose one of the ways just described to initialize a new repository.\n\n\n\nName your repository - keep it short and precise, for example “My_first_repo” ( you might realize that Github also makes some more or less reasonable suggestions).\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository"
+  },
+  {
+    "objectID": "Github_desktop2.html#importing-an-existing-project-into-github-online",
+    "href": "Github_desktop2.html#importing-an-existing-project-into-github-online",
+    "title": "Importing an existing project",
+    "section": "",
+    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File &gt; Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create repository.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content."
+  },
+  {
+    "objectID": "Github_desktop.html#interaction-between-github-online-and-your-local-machine",
+    "href": "Github_desktop.html#interaction-between-github-online-and-your-local-machine",
+    "title": "Github Desktop",
+    "section": "",
+    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you have already on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
+  },
+  {
+    "objectID": "Issues.html#collaborating-on-github",
+    "href": "Issues.html#collaborating-on-github",
+    "title": "Issues",
+    "section": "",
+    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. For example, developers often open issues to indicate the lack of a feature or a problem in in a project, issues can be assigned to a certain person, and they are often associated to a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
+  },
+  {
+    "objectID": "Pull_requests.html#about-pull-requests",
+    "href": "Pull_requests.html#about-pull-requests",
+    "title": "Pull requests (PRs)",
+    "section": "",
+    "text": "You were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR."
+  },
+  {
+    "objectID": "Pull_requests.html#why-is-it-called-pull-request",
+    "href": "Pull_requests.html#why-is-it-called-pull-request",
+    "title": "Pull requests (PRs)",
+    "section": "",
+    "text": "The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in."
   }
 ]
