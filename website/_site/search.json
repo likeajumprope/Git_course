@@ -25,7 +25,7 @@
     "href": "Setup_and_instructions.html",
     "title": "Setup and Instructions",
     "section": "",
-    "text": "Here’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare files between versions\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\nGit for Publishing (Gitbook)\n\n\nCode of Conduct\nAll interactions in this workshop will be governed by the VALA tech CAMP code of conduct.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code."
+    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare files between versions\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\nGit for Publishing (Gitbook)\n\n\nCode of Conduct\nAll interactions in this workshop will be governed by the VALA tech CAMP code of conduct.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code."
   },
   {
     "objectID": "What_is_git.html",
@@ -109,7 +109,7 @@
     "href": "The_history.html",
     "title": "The history of version control",
     "section": "",
-    "text": "Local Version Control Systems (LVCS): In the early days of software development, programmers relied on local version control systems. These systems stored different versions of files and directories on the local disk. Changes were tracked by copying entire directories, creating multiple versions of the project.\n\n\n\ncopyright www.phdcomics.com\n\n\nCentralized Version Control Systems (CVCS): As software development became more collaborative, the need for a centralized solution arose. CVCS, such as Concurrent Versions System (CVS) and Subversion (SVN), were introduced. These systems had a central server that stored the repository and allowed multiple developers to access and commit changes. However, they still had some limitations, such as the reliance on a central server and the inability to work offline effectively.\nDistributed Version Control Systems (DVCS): DVCS addressed the limitations of CVCS by allowing developers to have local copies of the entire repository. One of the most prominent DVCS is Git, created by Linus Torvalds in 2005. Git introduced a distributed architecture where each developer had a complete copy of the repository, including the entire history. This allowed for efficient branching, merging, and offline work. Other DVCS like Mercurial (Hg) also gained popularity.\nWeb-Based Version Control Systems: With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms."
+    "text": "Version control systems were designed to solve the task how to collaborate effectively on documents. They have gone through various iterations.\n\nLocal Version Control Systems (LVCS): In the early days of software development, programmers relied on local version control systems. These systems stored different versions of files and directories on the local disk. Changes were tracked by copying entire directories, creating multiple versions of the project.\n\nCentralized Version Control Systems (CVCS): As software development became more collaborative, the need for a centralized solution arose. CVCS, such as Concurrent Versions System (CVS) and Subversion (SVN), were introduced. These systems had a central server that stored the repository and allowed multiple developers to access and commit changes. However, they still had some limitations, such as the reliance on a central server and the inability to work offline effectively.\nDistributed Version Control Systems (DVCS): DVCS addressed the limitations of CVCS by allowing developers to have local copies of the entire repository. One of the most prominent DVCS is Git, created by Linus Torvalds in 2005. Git introduced a distributed architecture where each developer had a complete copy of the repository, including the entire history. This allowed for efficient branching, merging, and offline work. Other DVCS like Mercurial (Hg) also gained popularity.\nWeb-Based Version Control Systems: With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms."
   },
   {
     "objectID": "The_history.html#the-history-of-version-control",
@@ -256,7 +256,7 @@
     "href": "Version_control.html",
     "title": "Merge conflicts",
     "section": "",
-    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should fall into place somewhere in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
+    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
   },
   {
     "objectID": "Version_control.html#section",
@@ -627,7 +627,7 @@
     "href": "Version_control.html#resolving-the-merge-conflict",
     "title": "Merge conflicts",
     "section": "Resolving the merge conflict",
-    "text": "Resolving the merge conflict\nMerge conflicts require manual intervention and a selection of the changes that you would like to save.\n\nClick resolve merge conflict. You should be shown something like the following:\n\n\nYou can now edit the conflicting file. You have three choices:\n\nOnly accept the changes from main, thus remove the “<<<<<< dev Bad idea ======” part.\nOnly accepting the changes from dev, thus delete the “===== Creating a merge conflict >>>>> main” part\nCreate a new file accepting both changes. (Delete all <<<<<< >>>>>>>> and ======).\n\nOnce you have made you choice, click “mark conflict as resolved” and commit your changes."
+    "text": "Resolving the merge conflict\nMerge conflicts require manual intervention and a selection of the changes that you would like to save.\n\nClick resolve merge conflict. You should be shown something like the following:\n\n\nYou can now edit the conflicting file. You have three choices:\n\nOnly accept the changes from main, thus remove the “&lt;&lt;&lt;&lt;&lt;&lt; dev Bad idea ======” part.\nOnly accepting the changes from dev, thus delete the “===== Creating a merge conflict &gt;&gt;&gt;&gt;&gt; main” part\nCreate a new file accepting both changes. (Delete all &lt;&lt;&lt;&lt;&lt;&lt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; and ======).\n\nOnce you have made you choice, click “mark conflict as resolved” and commit your changes."
   },
   {
     "objectID": "Bits_and_pieces.html#publishing-on-github",
@@ -726,5 +726,19 @@
     "title": "Pull requests (PRs)",
     "section": "",
     "text": "The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in."
+  },
+  {
+    "objectID": "Version_control.html#a-hypothetical-scenario",
+    "href": "Version_control.html#a-hypothetical-scenario",
+    "title": "Merge conflicts",
+    "section": "",
+    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
+  },
+  {
+    "objectID": "Forking.html#making-changes-to-someone-elses-repository",
+    "href": "Forking.html#making-changes-to-someone-elses-repository",
+    "title": "Forking",
+    "section": "",
+    "text": "In the previous section, we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository."
   }
 ]
