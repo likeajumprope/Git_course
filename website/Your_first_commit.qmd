@@ -56,7 +56,7 @@ You can learn about the markdown language [here at this official resource](https
 
 ## What is a commit
 
-The contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. They can be seen as a snapshot of the state of repository at the time of the commit which can be reversed back to (in theory). They hence allow to create a *track record of changes of the repository over time*. Git will not allow any changes to documents or files without committing them first.
+The contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. A commit can be considered as a snapshot of the state of repository at the time of the commit, to which can be reversed back to (in theory). Commits hence allow to create a *track record of changes of the repository over time*. Git will not allow any changes to documents or files without committing them first.
 
 ![Contributions on Github are called commits. Commits are annotated snapshots of files and documents](img/commits.png)
 
@@ -66,7 +66,7 @@ The contribution in Git is structured in commits. Commits are small, labeled cha
 
 1.  Click on your newly created repository.
 
-2.  Click on the pencil icon to activate writing mode on the Readme.md
+2.  Click on the pencil icon to activate the editing/writing mode of the Readme.md file.
 
     ![Click on the pencil button to activate editing mode.](images/Commit1.png)
 
@@ -74,7 +74,7 @@ The contribution in Git is structured in commits. Commits are small, labeled cha
 
 4.  Click the green *Commit changes* button at the top right.
 
-    ![Make your changes and click the green commit changes button.](images/Commit2.png)
+    ![Add your changes to the repository and click the green commit changes button.](images/Commit2.png)
 
 5.  Write a precise commit message.
 
@@ -82,11 +82,11 @@ The contribution in Git is structured in commits. Commits are small, labeled cha
 
 6.  Commit your changes.
 
-Congratulations! You have made your first commit in Github!
+Congratulations! You have made your first commit on Github.com!
 
 # Reviewing your changes.
 
-Congratulations, you have now made your first commit on Github!
+Congratulations, you have now made your first commit on Github.com!
 
 Let's now have a look at the changes you have made.
 
@@ -96,15 +96,15 @@ Let's now have a look at the changes you have made.
 
 ![Go back to the code section of the repository.](images/Commit4.png)
 
-2.  The repository should show you that changes have been made not long ago. Click the history button.
+2.  The repository should show that changes have been made not long ago. Click the *history* button.
 
-![Click on the history of the repository.](images/Commit5.png)
+![Click on the history button to show you the history of the repository.](images/Commit5.png)
 
 3.  Click on the Readme.md commit.
 
 ![Click on your recent commit.](images/Commit6.png)
 
-4.  Additions to the file will be shown in green (and deletions in red),
+4.  Additions to the file will be shown in green (and deletions in red).
 
 ![Additions should appear in green.](images/Commit7.png)
 
