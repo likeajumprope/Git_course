@@ -6,9 +6,9 @@ editor: visual
 
 ## Collaborating on Github
 
-One additional vital feature on Github is *Issues.* Issues are the main tool for communication on Github. For example, developers often open issues to indicate the lack of a feature or a problem in in a project, issues can be assigned to a certain person, and they are often associated to a pull request.
+One additional vital feature on Github is *Issues.* Issues are the main tool for communication on Github. Developers often open issues to indicate the lack of a feature or a problem in in a project. Issues can be assigned to a certain person, and they are often the base for a pull request.
 
-Go back to the the upstream repository of the Git_course: <https://github.com/likeajumprope/Git_course>
+Go back to the the upstream repository of the Git_course: <https://github.com/likeajumprope/Git_course>.
 
 Click on the issues button and open a new issue.
 
@@ -26,7 +26,7 @@ You can open issues both on your own (the origin repository) and the upstream re
 
 ## Issue labels
 
-In large projects, issues are frequent and often sorted by labels. For example, labels can be: #bug #feature-wanted or #idea-for-discussion. This is very useful as it allows to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues that are more on the easy side and adequate for beginners.
+In large projects, issues are frequent and often sorted by labels. Here some example issues: #bug #feature-wanted or #idea-for-discussion. Issue labels are very useful as they allow to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues and contributions that are adequate for beginners (i.e. fixing a typo or a broken link).
 
 > Challenge: Look for beginner friendly issues.
 

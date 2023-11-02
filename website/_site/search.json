@@ -291,7 +291,7 @@
     "href": "Issues.html",
     "title": "Issues",
     "section": "",
-    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. For example, developers often open issues to indicate the lack of a feature or a problem in in a project, issues can be assigned to a certain person, and they are often associated to a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
+    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. Developers often open issues to indicate the lack of a feature or a problem in in a project. Issues can be assigned to a certain person, and they are often the base for a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
   },
   {
     "objectID": "Glossary.html",
@@ -473,7 +473,7 @@
     "href": "Issues.html#issue-labels",
     "title": "Issues",
     "section": "Issue labels",
-    "text": "Issue labels\nIn large projects, issues are frequent and often sorted by labels. For example, labels can be: #bug #feature-wanted or #idea-for-discussion. This is very useful as it allows to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues that are more on the easy side and adequate for beginners.\n\nChallenge: Look for beginner friendly issues.\n\n\nNavigate to the Github repository of the Turing Way Book.\nClick on the issues tab.\n\n\n\nClick on the labels tab.\n\n\n\nUse the search function to search for “good first issues”.\n\n\n\nClick on the label. What type of issues are listed under the “good first issue” label?"
+    "text": "Issue labels\nIn large projects, issues are frequent and often sorted by labels. Here some example issues: #bug #feature-wanted or #idea-for-discussion. Issue labels are very useful as they allow to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues and contributions that are adequate for beginners (i.e. fixing a typo or a broken link).\n\nChallenge: Look for beginner friendly issues.\n\n\nNavigate to the Github repository of the Turing Way Book.\nClick on the issues tab.\n\n\n\nClick on the labels tab.\n\n\n\nUse the search function to search for “good first issues”.\n\n\n\nClick on the label. What type of issues are listed under the “good first issue” label?"
   },
   {
     "objectID": "Glossary.html#issue",
@@ -711,7 +711,7 @@
     "href": "Issues.html#collaborating-on-github",
     "title": "Issues",
     "section": "",
-    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. For example, developers often open issues to indicate the lack of a feature or a problem in in a project, issues can be assigned to a certain person, and they are often associated to a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
+    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. Developers often open issues to indicate the lack of a feature or a problem in in a project. Issues can be assigned to a certain person, and they are often the base for a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
   },
   {
     "objectID": "Pull_requests.html#about-pull-requests",
