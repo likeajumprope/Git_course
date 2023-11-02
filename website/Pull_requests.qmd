@@ -6,7 +6,7 @@ editor: visual
 
 # Opening a pull request (PR)
 
-Branches are a good way to test edits to your repository and see whether you like them. But they would be useless if they would be continuously developing independently of each other.
+Branches are a good way to test edits to your repository and see whether you like them. But branches would be useless if they would only be desigend to continuously develop independently of each other.
 
 Luckily there is a way to fuse different branches!
 
@@ -16,17 +16,17 @@ It's now time to *merge* and update your main branch with your edits. This can b
 
 > Challenge: Create your first pull request.
 
-1\. Click on the create a pull request button:
+1\. Click on the *compare & create a pull request* button:
 
 ![](img/Recent-edits2.png)
 
-2.  Open a pull request. Git will show you what branch will be merged into which when creating the pull requests. You can change this (hence you can decide what to merge into what) - but for now let's keep the merge direction from Readme.edits -\> main.
+2.  Open a pull request. Git will show you which branch will be merged into which when creating the pull request. You can change the this (hence you can decide what to merge into what, and the direction) - but for now let's keep the merge direction from Readme.edits -\> main.
 
     ![](img/ScreenShot%20Tool%20-20230710231644.png)
 
-3.  Write a message for your pull request and click the create pull request button.
+3.  Write a message for your pull request and click the *create pull request* button.
 
-4.  Because you are the owner of this repository, you can also accept the pull request. Click the merge pull request button.
+4.  Because you are the owner of this repository, you can accept the pull request right away. Click the merge pull request button.
 
     ![](img/ScreenShot%20Tool%20-20230710232025.png)
 
