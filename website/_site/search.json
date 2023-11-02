@@ -585,7 +585,7 @@
     "href": "Your_first_commit.html#weblinks",
     "title": "Your first commit",
     "section": "Weblinks",
-    "text": "Weblinks\nThis is a link to the [VALA TECH CAMP website.](https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/) renders to:\nThis is a link to the VALA TECH CAMP website.\nYou can learn about the markdown language here at this official resource and at this resource from Github.\n\nChallenge: Your first commit in markdown"
+    "text": "Weblinks\nThis is a link to the [Github.com Wesbite.](https://github.com/) renders to:\nThis is a link to the Github.com Website.\nYou can learn about the markdown language here at this official resource and at this resource from Github.\n\nChallenge: Your first commit in markdown"
   },
   {
     "objectID": "Forking.html#fork-the-repository-into-your-account.",
