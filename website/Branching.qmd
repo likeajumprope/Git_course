@@ -6,7 +6,7 @@ editor: visual
 
 # Branching
 
-*Branching* is a way to work on different parts and versions of a repository at the same time. By default, each repository is created and initiated with a *main* branch. You can commit directly into the main branch as we just did.
+*Branching* facilitates working on different parts and versions of a repository at the same time. By default, each repository is created and initiated with a *main* branch. You can commit directly into the main branch as we just did.
 
 A branch is an identical copy of the main repository (or any other branch you want to copy from). Branching allows you to implement and test changes before committing them into the main repository (your production branch).
 
