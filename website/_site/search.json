@@ -256,7 +256,7 @@
     "href": "Version_control.html",
     "title": "Merge conflicts",
     "section": "",
-    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
+    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one isolated tep in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
   },
   {
     "objectID": "Version_control.html#section",
@@ -452,7 +452,7 @@
     "href": "Version_control.html#create-a-merge-conflict",
     "title": "Merge conflicts",
     "section": "Create a merge conflict",
-    "text": "Create a merge conflict\nGo to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: “Practicing merge conflicts”. Commit your changes to the main branch.\n\nClick on the branch symbol with the label main and create a new branch dev from main.\n\nGo back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write on the second line: Creating a merge conflict”. Commit those changes.\n\nNavigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.\n\nCreate a PR from dev to main. Git will warn you that the branches cannot automatically be merged. Click create PR regardless. You have created a merge conflict!"
+    "text": "Create a merge conflict\nGo to your online repository of Git_course_training_repo. Create a file named merge_conflict.md and write in the first line: “Practicing merge conflicts”. Commit your changes to the main branch.\n\nClick on the branch symbol with the label main and create a new branch dev from main.\n\nGo back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write on the second line: Creating a merge conflict”. Commit those changes.\n\nNavigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.\n\nCreate a PR from dev to main. Git will warn you that the branches cannot automatically be merged. Click create PR regardless. You have created a merge conflict!"
   },
   {
     "objectID": "Version_control.html#avoiding-merge-conflicts",
@@ -732,7 +732,7 @@
     "href": "Version_control.html#a-hypothetical-scenario",
     "title": "Merge conflicts",
     "section": "",
-    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
+    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one isolated tep in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
   },
   {
     "objectID": "Forking.html#making-changes-to-someone-elses-repository",

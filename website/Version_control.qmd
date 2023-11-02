@@ -6,7 +6,7 @@ editor: visual
 
 ## A hypothetical scenario
 
-Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.
+Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one isolated tep in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.
 
 ![](images/Version_conflict.png)
 
@@ -16,7 +16,7 @@ Different edits and commits to the same file on different branches or PRs of dif
 
 ## Create a merge conflict
 
-Go to your online repository of Git_course. Create a file named merge_conflict.md and write in the first line: "Practicing merge conflicts". Commit your changes to the main branch.
+Go to your online repository of Git_course_training_repo. Create a file named merge_conflict.md and write in the first line: "Practicing merge conflicts". Commit your changes to the main branch.
 
 ![](img/MC3.png)
 
