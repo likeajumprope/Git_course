@@ -22,7 +22,7 @@ Log into your Github account.
 
 While you don't have writing access to most repositories, they provide a great resource.
 
-> Challenge: Use Github as a resource. Type "Librarian" into the search bar.
+> Challenge: Use Github as a resource. Type "Open Science" into the search bar.
 
 ![](img/Search.png)
 
