@@ -30,6 +30,6 @@ The search reveals all repositories that have the word "librarian; in them. In a
 
 ![](img/Repositories.png)
 
-Other information that are revealed about the repositories are information such as the programming languages used (here: Ruby) and the number of *stars* the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under *your stars*.
+Other information that are revealed about the repositories are information such as the programming languages used (here: Python) and the number of *stars* the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under *your stars*.
 
 > Challenge: Click on one of the repositories and have a look at the content!
