@@ -44,9 +44,9 @@ The number of `#` determine the level of the headline:
 
 ## Weblinks
 
-This is a link to the `[VALA TECH CAMP website.](https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/)` renders to:
+This is a link to the `[Github.com Wesbite.](https://github.com/)` renders to:
 
-This is a link to the [VALA TECH CAMP website.](https://www.vala.org.au/vala-events/tech-camp/tech-camp-2023-program-announcement/)
+This is a link to the [Github.com Website.](https://github.com/)
 
 You can learn about the markdown language [here at this official resource](https://www.markdownguide.org/getting-started/) and at this [resource from Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
