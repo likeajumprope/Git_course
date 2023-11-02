@@ -6,15 +6,15 @@ editor: visual
 
 ## Interaction between Github online and your local machine
 
-We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you have already on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine.
+We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you already have on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine.
 
 ## The two way street between Github online and your local machine
 
 There a two ways of interaction between Github online and your local machine:
 
-I. Make a copy (*a clone*) of an online repository on your local machine.
+I. Make a copy (*a clone*) of an online repository on your local machine (top down\_.
 
-II\. Import a repository from your local machine onto Github online.
+II\. Import a repository from your local machine onto Github online (bottom up).
 
 ## Github Desktop
 
@@ -32,7 +32,7 @@ Let's start with making a local copy of an existing online repository. This proc
 
 ## Cloning a repository
 
-1.  Navigate to **your** fork of the Git_course.
+1.  Navigate to **your** fork of the Git_course_training_repo.
 
 2.  Click on the green *Code* button. Select *Open with Github Desktop*.
 
@@ -48,7 +48,7 @@ The repository now exists as a cope on your local machine! Github desktop should
 
 Let's have a look at Github Desktop.
 
-1.  First of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.
+1.  First of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course_training_repo), the branch you are on (main) and when the repository was last updated from the origin repository.
 
     ![](img/Desktop3.png)
 
@@ -111,4 +111,4 @@ Now that you have established the connection between the repository on you local
 
 ## Final remarks - it can get messy
 
-You should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three lvels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!
+You should have realized that now we have already three copies of the Git_course_training_repo repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three levels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!

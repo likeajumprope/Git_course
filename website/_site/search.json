@@ -319,7 +319,7 @@
     "href": "Github_desktop.html",
     "title": "Github Desktop",
     "section": "",
-    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you have already on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
+    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you already have on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
   },
   {
     "objectID": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine.",
@@ -375,7 +375,7 @@
     "href": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine",
     "title": "Github Desktop",
     "section": "The two way street between Github online and your local machine",
-    "text": "The two way street between Github online and your local machine\nThere a two ways of interaction between Github online and your local machine:\nI. Make a copy (a clone) of an online repository on your local machine.\nII. Import a repository from your local machine onto Github online."
+    "text": "The two way street between Github online and your local machine\nThere a two ways of interaction between Github online and your local machine:\nI. Make a copy (a clone) of an online repository on your local machine (top down_.\nII. Import a repository from your local machine onto Github online (bottom up)."
   },
   {
     "objectID": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine",
@@ -389,7 +389,7 @@
     "href": "Github_desktop.html#exploring-github-desktop",
     "title": "Github Desktop",
     "section": "Exploring Github Desktop",
-    "text": "Exploring Github Desktop\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream) repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!"
+    "text": "Exploring Github Desktop\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course_training_repo), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream) repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!"
   },
   {
     "objectID": "Github_desktop.html#make-changes-to-your-local-repository",
@@ -410,7 +410,7 @@
     "href": "Github_desktop.html#final-remarks---it-can-get-messy",
     "title": "Github Desktop",
     "section": "Final remarks - it can get messy",
-    "text": "Final remarks - it can get messy\nYou should have realized that now we have already three copies of the Git_course repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three lvels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!"
+    "text": "Final remarks - it can get messy\nYou should have realized that now we have already three copies of the Git_course_training_repo repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three levels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!"
   },
   {
     "objectID": "Github_desktop2.html",
@@ -620,7 +620,7 @@
     "href": "Github_desktop.html#cloning-a-repository",
     "title": "Github Desktop",
     "section": "Cloning a repository",
-    "text": "Cloning a repository\n\nNavigate to your fork of the Git_course.\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine! Github desktop should open automatically in the folder that your repository was cloned to."
+    "text": "Cloning a repository\n\nNavigate to your fork of the Git_course_training_repo.\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine! Github desktop should open automatically in the folder that your repository was cloned to."
   },
   {
     "objectID": "Version_control.html#resolving-the-merge-conflict",
@@ -704,7 +704,7 @@
     "href": "Github_desktop.html#interaction-between-github-online-and-your-local-machine",
     "title": "Github Desktop",
     "section": "",
-    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you have already on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
+    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you already have on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
   },
   {
     "objectID": "Issues.html#collaborating-on-github",
