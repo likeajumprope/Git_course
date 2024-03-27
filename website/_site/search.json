@@ -375,7 +375,7 @@
     "href": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine",
     "title": "Github Desktop",
     "section": "The two way street between Github online and your local machine",
-    "text": "The two way street between Github online and your local machine\nThere a two ways of interaction between Github online and your local machine:\nI. Make a copy (a clone) of an online repository on your local machine (top down_.\nII. Import a repository from your local machine onto Github online (bottom up)."
+    "text": "The two way street between Github online and your local machine\nThere a two ways of interaction between Github online and your local machine:\nI. Make a copy (a clone) of an online repository on your local machine (top down).\nII. Import a repository from your local machine onto Github online (bottom up)."
   },
   {
     "objectID": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine",

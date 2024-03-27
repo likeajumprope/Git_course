@@ -12,7 +12,7 @@ We have been working on Github online up until now. This can be useful, but you 
 
 There a two ways of interaction between Github online and your local machine:
 
-I. Make a copy (*a clone*) of an online repository on your local machine (top down\_.
+I. Make a copy (*a clone*) of an online repository on your local machine (top down).
 
 II\. Import a repository from your local machine onto Github online (bottom up).
 
