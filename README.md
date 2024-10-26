@@ -1,6 +1,10 @@
 # Git Course
 
-This repository contains the curriculum and material for the Git course. [![DOI](https://zenodo.org/badge/701011770.svg)](https://doi.org/10.5281/zenodo.13996071)
+This repository contains the curriculum and material for the Git course. </br>
+
+[![DOI](https://zenodo.org/badge/701011770.svg)](https://doi.org/10.5281/zenodo.13996071)
+
+</br>
 
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"  width="600" height="300">
 
