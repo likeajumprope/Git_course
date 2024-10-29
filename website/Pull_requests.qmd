@@ -6,7 +6,7 @@ editor: visual
 
 # Opening a pull request (PR)
 
-Branches are a good way to test edits to your repository and see whether you like them. But branches would be useless if they would only be desigend to continuously develop independently of each other.
+Branches are a good way to test edits to your repository and see whether you like them. But branches would be useless if they would only be designed to continuously develop independently of each other.
 
 Luckily there is a way to fuse different branches!
 

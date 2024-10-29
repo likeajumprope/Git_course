@@ -30,7 +30,7 @@ Pull requests tell others about the changes that you have made and pushed to a r
 
 ## Readme.md
 
-The Readme.md is usually the first file vistors see and interacts with on your repository. It should contain information about the purpose and content of the repository.
+The Readme.md is usually the first file visitors see and interacts with on your repository. It should contain information about the purpose and content of the repository.
 
 ## Upstream repository
 

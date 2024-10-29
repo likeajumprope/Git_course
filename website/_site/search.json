@@ -25,7 +25,7 @@
     "href": "Setup_and_instructions.html",
     "title": "Setup and Instructions",
     "section": "",
-    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare differnt versions of files\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\n\n\nCode of Conduct\nAll interactions in this workshop shall be governed by respect, constructive engagement, and kindness.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code.",
+    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare different versions of files\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\n\n\nCode of Conduct\nAll interactions in this workshop shall be governed by respect, constructive engagement, and kindness.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code.",
     "crumbs": [
       "Setup and Instructions"
     ]
@@ -35,7 +35,11 @@
     "href": "What_is_git.html",
     "title": "What is git?",
     "section": "",
-    "text": "What is git?\nGit(hub) has tow main purposes:\nIn addition it allows for:"
+    "text": "What is git?\nGit(hub) has tow main purposes:\nIn addition it allows for:",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "What is git?"
+    ]
   },
   {
     "objectID": "What_is_git.html#git-the-software",
@@ -70,21 +74,33 @@
     "href": "Git_Github_Gitlab.html",
     "title": "Git, Gitlab, Github",
     "section": "",
-    "text": "The terminology around git can be confusing."
+    "text": "The terminology around git can be confusing.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "Git, Gitlab, Github"
+    ]
   },
   {
     "objectID": "Git_Github_Gitlab.html#git-github-gitlab---what",
     "href": "Git_Github_Gitlab.html#git-github-gitlab---what",
     "title": "Git, Gitlab, Github",
     "section": "",
-    "text": "The terminology around git can be confusing."
+    "text": "The terminology around git can be confusing.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "Git, Gitlab, Github"
+    ]
   },
   {
     "objectID": "Git_Github_Gitlab.html#git-the-software",
     "href": "Git_Github_Gitlab.html#git-the-software",
     "title": "Git, Gitlab, Github",
     "section": "Git: The Software",
-    "text": "Git: The Software\n\n\n\n\n\n\nGit is a distributed version control system (VCS) designed to track changes in files and coordinate work among multiple people. It allows developers to work on projects locally, create branches for experimentation, and merge changes back into the main codebase. Git is primarily a command-line tool, and it provides a set of commands for managing repositories and collaborating with others."
+    "text": "Git: The Software\n\n\n\n\n\n\n\n\n\nGit is a distributed version control system (VCS) designed to track changes in files and coordinate work among multiple people. It allows developers to work on projects locally, create branches for experimentation, and merge changes back into the main codebase. Git is primarily a command-line tool, and it provides a set of commands for managing repositories and collaborating with others.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "Git, Gitlab, Github"
+    ]
   },
   {
     "objectID": "Git_Github_Gitlab.html#github-the-platform.",
@@ -105,14 +121,22 @@
     "href": "Git_Github_Gitlab.html#bitbucket-yet-another-competitor",
     "title": "Git, Gitlab, Github",
     "section": "Bitbucket: Yet another competitor",
-    "text": "Bitbucket: Yet another competitor\n\n\n\n\n\n\nBitbucket is yet another web-based platform for hosting Git repositories. Similar to GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform)."
+    "text": "Bitbucket: Yet another competitor\n\n\n\n\n\n\n\n\n\nBitbucket is yet another web-based platform for hosting Git repositories. Similar to GitHub and GitLab, it offers features such as repository management, issue tracking, and pull requests. Bitbucket is known for its seamless integration with other Atlassian products like Jira (project management) and Confluence (collaboration platform).",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "Git, Gitlab, Github"
+    ]
   },
   {
     "objectID": "The_history.html",
     "href": "The_history.html",
     "title": "The history of version control",
     "section": "",
-    "text": "Version control systems were designed to solve the task how to collaborate effectively on documents. They have gone through various iterations.\n\nLocal Version Control Systems (LVCS): In the early days of software development, programmers relied on local version control systems. These systems stored different versions of files and directories on the local disk. Changes were tracked by copying entire directories, creating multiple versions of the project.\n\nCentralized Version Control Systems (CVCS): As software development became more collaborative, the need for a centralized solution arose. CVCS, such as Concurrent Versions System (CVS) and Subversion (SVN), were introduced. These systems had a central server that stored the repository and allowed multiple developers to access and commit changes. However, they still had some limitations, such as the reliance on a central server and the inability to work offline effectively.\nDistributed Version Control Systems (DVCS): DVCS addressed the limitations of CVCS by allowing developers to have local copies of the entire repository. One of the most prominent DVCS is Git, created by Linus Torvalds in 2005. Git introduced a distributed architecture where each developer had a complete copy of the repository, including the entire history. This allowed for efficient branching, merging, and offline work. Other DVCS like Mercurial (Hg) also gained popularity.\nWeb-Based Version Control Systems: With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms."
+    "text": "Version control systems were designed to solve the task how to collaborate effectively on documents. They have gone through various iterations.\n\nLocal Version Control Systems (LVCS): In the early days of software development, programmers relied on local version control systems. These systems stored different versions of files and directories on the local disk. Changes were tracked by copying entire directories, creating multiple versions of the project.\n\n\n\ncopyright www.phdcomics.com\n\n\nCentralized Version Control Systems (CVCS): As software development became more collaborative, the need for a centralized solution arose. CVCS, such as Concurrent Versions System (CVS) and Subversion (SVN), were introduced. These systems had a central server that stored the repository and allowed multiple developers to access and commit changes. However, they still had some limitations, such as the reliance on a central server and the inability to work offline effectively.\nDistributed Version Control Systems (DVCS): DVCS addressed the limitations of CVCS by allowing developers to have local copies of the entire repository. One of the most prominent DVCS is Git, created by Linus Torvalds in 2005. Git introduced a distributed architecture where each developer had a complete copy of the repository, including the entire history. This allowed for efficient branching, merging, and offline work. Other DVCS like Mercurial (Hg) also gained popularity.\nWeb-Based Version Control Systems: With the rise of the internet and collaborative development, web-based version control systems emerged. They provided a platform for hosting repositories and added web interfaces to simplify collaboration and code management. GitHub (2008), GitLab (2011), and Bitbucket (2008) are popular examples of such platforms.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "The history of version control"
+    ]
   },
   {
     "objectID": "The_history.html#the-history-of-version-control",
@@ -182,35 +206,55 @@
     "href": "Git_online.html",
     "title": "Getting to know Github.com",
     "section": "",
-    "text": "Git is structured in Repositories.\nThe repositories on Github are divided in two types of repositories:\n\nThose you have writing access to (your repositories)\nRepositories of other people that you can only view\n\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Open Science” into the search bar.\n\n\nThe search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.\n\nOther information that are revealed about the repositories are information such as the programming languages used (here: Python) and the number of stars the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under your stars.\n\nChallenge: Click on one of the repositories and have a look at the content!"
+    "text": "Git is structured in Repositories.\nThe repositories on Github are divided in two types of repositories:\n\nThose you have writing access to (your repositories)\nRepositories of other people that you can only view\n\n\nChallenge: Log into your github account.\n\nLog into your Github account.\n\nFind the place where your repositories (will) live.\n\n\n\nSearch for other people’s repositories.\n\nWhile you don’t have writing access to most repositories, they provide a great resource.\n\nChallenge: Use Github as a resource. Type “Open Science” into the search bar.\n\n\nThe search reveals all repositories that have the word “librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.\n\nOther information that are revealed about the repositories are information such as the programming languages used (here: Python) and the number of stars the repositories has and the date the repository was last updated. You can star repositories that you like; they will appear in your profile under your stars.\n\nChallenge: Click on one of the repositories and have a look at the content!",
+    "crumbs": [
+      "Github online and version control",
+      "Getting to know Github.com"
+    ]
   },
   {
     "objectID": "Creating_your_first_repository.html",
     "href": "Creating_your_first_repository.html",
     "title": "Creating your first repository",
     "section": "",
-    "text": "You have two options when creating a new repository.\n\nClick on the + next to your profile image in the top right corner of the screen\nGo to the repositories tab within your profile page and click the New button.\n\n\n\n\n\n\n\nChallenge: Create a new repository.\n\n\nChoose one of the ways just described to initialize a new repository.\n\n\n\nName your repository - keep it short and precise, for example “My_first_repo” ( you might realize that Github also makes some more or less reasonable suggestions).\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository"
+    "text": "You have two options when creating a new repository.\n\nClick on the + next to your profile image in the top right corner of the screen\nGo to the repositories tab within your profile page and click the New button.\n\n\n\n\n\n\n\nChallenge: Create a new repository.\n\n\nChoose one of the ways just described to initialize a new repository.\n\n\n\nName your repository - keep it short and precise, for example “My_first_repo” ( you might realize that Github also makes some more or less reasonable suggestions).\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository",
+    "crumbs": [
+      "Github online and version control",
+      "Creating your first repository"
+    ]
   },
   {
     "objectID": "Your_first_commit.html",
     "href": "Your_first_commit.html",
     "title": "Your first commit",
     "section": "",
-    "text": "We just created a README.md file when initializing your first repository.\nThe README.md is often the first item a visitor will see when visiting your repository. README files typically include information on:\n\nThe purpose and content of the rpository\nhow to contribute to the repository (sometimes separated in a different file called Contributing.md)\n\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:"
+    "text": "We just created a README.md file when initializing your first repository.\nThe README.md is often the first item a visitor will see when visiting your repository. README files typically include information on:\n\nThe purpose and content of the repository\nhow to contribute to the repository (sometimes separated in a different file called Contributing.md)\n\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plain text text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#headlines",
     "href": "Your_first_commit.html#headlines",
     "title": "Your first commit",
     "section": "Headlines",
-    "text": "Headlines\nThe number of # determine the level of the headline:\n# A first level heading\n\n## A second level heading\n\n### A third level heading"
+    "text": "Headlines\nThe number of # determine the level of the headline:\n# A first level heading\n\n## A second level heading\n\n### A third level heading",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#a-second-level-heading",
     "href": "Your_first_commit.html#a-second-level-heading",
     "title": "Your first commit",
     "section": "A second level heading",
-    "text": "A second level heading\n\nA third level heading"
+    "text": "A second level heading\n\nA third level heading",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#running-code",
@@ -224,42 +268,66 @@
     "href": "Your_first_commit.html#commits-on-github",
     "title": "Your first commit",
     "section": "Commits on Github",
-    "text": "Commits on Github"
+    "text": "Commits on Github",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#what-is-a-commit",
     "href": "Your_first_commit.html#what-is-a-commit",
     "title": "Your first commit",
     "section": "What is a commit",
-    "text": "What is a commit\nThe contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. A commit can be considered as a snapshot of the state of repository at the time of the commit, to which can be reversed back to (in theory). Commits hence allow to create a track record of changes of the repository over time. Git will not allow any changes to documents or files without committing them first.\n\n\n\nContributions on Github are called commits. Commits are annotated snapshots of files and documents"
+    "text": "What is a commit\nThe contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. A commit can be considered as a snapshot of the state of repository at the time of the commit, to which can be reversed back to (in theory). Commits hence allow to create a track record of changes of the repository over time. Git will not allow any changes to documents or files without committing them first.\n\n\n\nContributions on Github are called commits. Commits are annotated snapshots of files and documents",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#committing-on-github.com",
     "href": "Your_first_commit.html#committing-on-github.com",
     "title": "Your first commit",
     "section": "Committing on Github.com",
-    "text": "Committing on Github.com\n\nChallenge: Add some information to the Readme.md file of your newly created github repository!\n\n\nClick on your newly created repository.\nClick on the pencil icon to activate the editing/writing mode of the Readme.md file.\n\nAdd some information about the purpose of the repository.\nClick the green Commit changes button at the top right.\n\nWrite a precise commit message.\n\nCommit your changes.\n\nCongratulations! You have made your first commit on Github.com!"
+    "text": "Committing on Github.com\n\nChallenge: Add some information to the Readme.md file of your newly created github repository!\n\n\nClick on your newly created repository.\nClick on the pencil icon to activate the editing/writing mode of the Readme.md file.\n\n\n\nClick on the pencil button to activate editing mode.\n\n\nAdd some information about the purpose of the repository.\nClick the green Commit changes button at the top right.\n\n\n\nAdd your changes to the repository and click the green commit changes button.\n\n\nWrite a precise commit message.\n\n\n\nFormulate a precise commit message. Commit your changes.\n\n\nCommit your changes.\n\nCongratulations! You have made your first commit on Github.com!",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Forking.html",
     "href": "Forking.html",
     "title": "Forking",
     "section": "",
-    "text": "In the previous section we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository."
+    "text": "In the previous section we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository.",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Forking"
+    ]
   },
   {
     "objectID": "Forking.html#forking-a-repository",
     "href": "Forking.html#forking-a-repository",
     "title": "Forking",
     "section": "Forking a repository",
-    "text": "Forking a repository\nIn order to make changes to someone else’s repository, you’d have to get the rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called forking a repository.\n\n\n\nForks are copies of other people’s repositories into your account.\n\n\n\nChallenge: Contribute to someone else’s repository.\n\nNavigate to the repository https://github.com/likeajumprope/Git_course_training_repo. This repository is owned by myself, so you are not the owner of the repository and you won’t be able to make changes right away."
+    "text": "Forking a repository\nIn order to make changes to someone else’s repository, you’d have to get the rights for the repository. On Github, this means that you make a copy of the repository under your account. This process is called forking a repository.\n\n\n\nForks are copies of other people’s repositories into your account.\n\n\n\nChallenge: Contribute to someone else’s repository.\n\nNavigate to the repository https://github.com/likeajumprope/Git_course_training_repo. This repository is owned by myself, so you are not the owner of the repository and you won’t be able to make changes right away.",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Forking"
+    ]
   },
   {
     "objectID": "Version_control.html",
     "href": "Version_control.html",
     "title": "Merge conflicts",
     "section": "",
-    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one isolated tep in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
+    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one isolated step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.",
+    "crumbs": [
+      "Version control",
+      "Merge conflicts"
+    ]
   },
   {
     "objectID": "Version_control.html#section",
@@ -273,7 +341,11 @@
     "href": "Branching.html",
     "title": "Branching",
     "section": "",
-    "text": "Branching facilitates working on different parts and versions of a repository at the same time. By default, each repository is created and initiated with a main branch. You can commit directly into the main branch as we just did.\nA branch is an identical copy of the main repository (or any other branch you want to copy from). Branching allows you to implement and test changes before committing them into the main repository (your production branch).\n\n\n\nBranches are copies of a repository. They allow to develop the repository in different directions.\n\n\n\n\nLet’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive language the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits and changes to your repository and see whether you like them. If you are not happy with your changes, you can just disregard your branch and the changes will never affect the content of your main repository.\nDifferent branches can develop independently and in parallel of each other."
+    "text": "Branching facilitates working on different parts and versions of a repository at the same time. By default, each repository is created and initiated with a main branch. You can commit directly into the main branch as we just did.\nA branch is an identical copy of the main repository (or any other branch you want to copy from). Branching allows you to implement and test changes before committing them into the main repository (your production branch).\n\n\n\nBranches are copies of a repository. They allow to develop the repository in different directions.\n\n\n\n\nLet’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive language the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits and changes to your repository and see whether you like them. If you are not happy with your changes, you can just disregard your branch and the changes will never affect the content of your main repository.\nDifferent branches can develop independently and in parallel of each other.",
+    "crumbs": [
+      "Github online and version control",
+      "Branching"
+    ]
   },
   {
     "objectID": "Branching.html#about-pull-requests",
@@ -294,35 +366,53 @@
     "href": "Issues.html",
     "title": "Issues",
     "section": "",
-    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. Developers often open issues to indicate the lack of a feature or a problem in in a project. Issues can be assigned to a certain person, and they are often the base for a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
+    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. Developers often open issues to indicate the lack of a feature or a problem in in a project. Issues can be assigned to a certain person, and they are often the base for a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue.",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Issues"
+    ]
   },
   {
     "objectID": "Glossary.html",
     "href": "Glossary.html",
     "title": "Glossary",
     "section": "",
-    "text": "An identical copy of a repository. Branches are great to test features before pushing them into the main branch."
+    "text": "An identical copy of a repository. Branches are great to test features before pushing them into the main branch.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Glossary.html#upstream-repository",
     "href": "Glossary.html#upstream-repository",
     "title": "Glossary",
     "section": "Upstream repository",
-    "text": "Upstream repository\nThe original repository that you have forked from."
+    "text": "Upstream repository\nThe original repository that you have forked from.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Pull_requests.html",
     "href": "Pull_requests.html",
     "title": "Pull requests (PRs)",
     "section": "",
-    "text": "Branches are a good way to test edits to your repository and see whether you like them. But branches would be useless if they would only be desigend to continuously develop independently of each other.\nLuckily there is a way to fuse different branches!\nIt’s now time to merge and update your main branch with your edits. This can be achieved by creating a pull request.\n\n\n\nBranches can be merged by a pull request.\n\n\n\nChallenge: Create your first pull request.\n\n1. Click on the compare & create a pull request button:\n\n\nOpen a pull request. Git will show you which branch will be merged into which when creating the pull request. You can change the this (hence you can decide what to merge into what, and the direction) - but for now let’s keep the merge direction from Readme.edits -&gt; main.\n\nWrite a message for your pull request and click the create pull request button.\nBecause you are the owner of this repository, you can accept the pull request right away. Click the merge pull request button.\n\n\n5. Congratulations! You have merged your first pull request!\n\n\n\nYou were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.\n\n\n\nThe pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in."
+    "text": "Branches are a good way to test edits to your repository and see whether you like them. But branches would be useless if they would only be designed to continuously develop independently of each other.\nLuckily there is a way to fuse different branches!\nIt’s now time to merge and update your main branch with your edits. This can be achieved by creating a pull request.\n\n\n\nBranches can be merged by a pull request.\n\n\n\nChallenge: Create your first pull request.\n\n1. Click on the compare & create a pull request button:\n\n\nOpen a pull request. Git will show you which branch will be merged into which when creating the pull request. You can change the this (hence you can decide what to merge into what, and the direction) - but for now let’s keep the merge direction from Readme.edits -&gt; main.\n\nWrite a message for your pull request and click the create pull request button.\nBecause you are the owner of this repository, you can accept the pull request right away. Click the merge pull request button.\n\n\n5. Congratulations! You have merged your first pull request!\n\n\n\nYou were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.\n\n\n\nThe pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in.",
+    "crumbs": [
+      "Github online and version control",
+      "Pull requests (PRs)"
+    ]
   },
   {
     "objectID": "Github_desktop.html",
     "href": "Github_desktop.html",
     "title": "Github Desktop",
     "section": "",
-    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you already have on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
+    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you already have on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine.",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine.",
@@ -336,7 +426,11 @@
     "href": "Github_desktop.html#github-desktop",
     "title": "Github Desktop",
     "section": "Github Desktop",
-    "text": "Github Desktop\nThe tool that we are going to use on your local machine is Github Desktop. Git can also be used from the command line on your local machine, but Github desktop is a nice and more intuitive GUI tool for beginners.\n\n\n\n\n\nYou should have Github Desktop installed. If not, do it now."
+    "text": "Github Desktop\nThe tool that we are going to use on your local machine is Github Desktop. Git can also be used from the command line on your local machine, but Github desktop is a nice and more intuitive GUI tool for beginners.\n\n\n\n\n\nYou should have Github Desktop installed. If not, do it now.",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine.",
@@ -371,14 +465,22 @@
     "href": "Your_first_commit.html#final-remarks---committing",
     "title": "Your first commit",
     "section": "Final remarks - committing",
-    "text": "Final remarks - committing\nAlways commit your changes! While changes might be saved by your operating system, git only tracks changes once they are committed."
+    "text": "Final remarks - committing\nAlways commit your changes! While changes might be saved by your operating system, git only tracks changes once they are committed.",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine",
     "href": "Github_desktop.html#the-two-way-street-between-github-online-and-your-local-machine",
     "title": "Github Desktop",
     "section": "The two way street between Github online and your local machine",
-    "text": "The two way street between Github online and your local machine\nThere a two ways of interaction between Github online and your local machine:\nI. Make a copy (a clone) of an online repository on your local machine (top down).\nII. Import a repository from your local machine onto Github online (bottom up)."
+    "text": "The two way street between Github online and your local machine\nThere a two ways of interaction between Github online and your local machine:\nI. Make a copy (a clone) of an online repository on your local machine (top down).\nII. Import a repository from your local machine onto Github online (bottom up).",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Github_desktop.html#cloning-a-repository-from-github-online-onto-your-local-machine",
@@ -392,14 +494,22 @@
     "href": "Github_desktop.html#exploring-github-desktop",
     "title": "Github Desktop",
     "section": "Exploring Github Desktop",
-    "text": "Exploring Github Desktop\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course_training_repo), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream) repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!"
+    "text": "Exploring Github Desktop\nLet’s have a look at Github Desktop.\n\nFirst of all, Github Desktop gives you an overview over your newly created repository. It shows you: the name of the repository (Git_course_training_repo), the branch you are on (main) and when the repository was last updated from the origin repository.\n\nNote that this newly created repository is a standalone repository. Hence, changes made to the origin (or upstream) repository are not automatically pulled into this new repository. Instead, you can do this manually by clicking the Fetch origin button in Github Desktop. This procedure is similar to the sync fork button on Github online.\nGithub Desktop also gives you three options how to work with the repository:\n\nShow your files in Finder (Mac) or in Explorer (Windows). Here Github Desktop will show you where the repository is located on your hard drive.\nOpen the files in an external editor. Here Github Desktop will use one that is installed on your machine.\nShow the repository on Github online. Here Github Desktop will lead you back to Github online.\n\n\nNote also that Github Desktop shows you that you have not yet made any changes to your local repository. Let’s change that!",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Github_desktop.html#make-changes-to-your-local-repository",
     "href": "Github_desktop.html#make-changes-to-your-local-repository",
     "title": "Github Desktop",
     "section": "Make changes to your local repository",
-    "text": "Make changes to your local repository\nYou cannot make changes to your repository in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use Sublime in this example.\nRegardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:\n\n\nAn overview over all the existing files in your repository (usually on the left side)\nSome way to create a new file.\n\nCreate a new .md file, or make changes to an exiting file. In this case, I have added one line to the Johanna.md file. SAVE your changes.\n\nGo back to github Desktop. You should see your new file/your changes.\n\nSimilar to Github online, github Desktop will not allow you to make any changes without committing them. Write an appropriate commit message and commit your changes.\n\nHow do we now update our repository in Github online? Github Desktop makes this easy. You should see that one change (the one you have just committed) is waiting to be pushed to Github online:\n\nClick the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository."
+    "text": "Make changes to your local repository\nYou cannot make changes to your repository in Github Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use Sublime in this example.\nRegardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:\n\n\nAn overview over all the existing files in your repository (usually on the left side)\nSome way to create a new file.\n\nCreate a new .md file, or make changes to an exiting file. In this case, I have added one line to the Johanna.md file. SAVE your changes.\n\nGo back to github Desktop. You should see your new file/your changes.\n\nSimilar to Github online, github Desktop will not allow you to make any changes without committing them. Write an appropriate commit message and commit your changes.\n\nHow do we now update our repository in Github online? Github Desktop makes this easy. You should see that one change (the one you have just committed) is waiting to be pushed to Github online:\n\nClick the push button and check your online repository: Your changes should now be there! If you want to, you can also make a PR to the upstream repository.",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository",
@@ -413,84 +523,130 @@
     "href": "Github_desktop.html#final-remarks---it-can-get-messy",
     "title": "Github Desktop",
     "section": "Final remarks - it can get messy",
-    "text": "Final remarks - it can get messy\nYou should have realized that now we have already three copies of the Git_course_training_repo repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three levels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!"
+    "text": "Final remarks - it can get messy\nYou should have realized that now we have already three copies of the Git_course_training_repo repository: The one under the upstream account, the one under your (the origin) account, and the one on the local machine. Each repository can be manipulated and changed independently. In addition, we can have branches of each repository at each level of those three levels. With this many copies of a repository it is easy to loose oversight of which changes have been made to which repository and which one is the most up-to-date one. A good commit history and habits can be life saving!",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Github_desktop2.html",
     "href": "Github_desktop2.html",
     "title": "Importing an existing project",
     "section": "",
-    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File &gt; Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create a repository in the warning label.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content."
+    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File &gt; Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create a repository in the warning label.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content.",
+    "crumbs": [
+      "Git on your local machine",
+      "Importing an existing project"
+    ]
   },
   {
     "objectID": "Github_desktop2.html#file-size-limits-and-licenses",
     "href": "Github_desktop2.html#file-size-limits-and-licenses",
     "title": "Importing an existing project",
     "section": "File size limits and licenses",
-    "text": "File size limits and licenses\n\nFile size limits and gitignore\nGithub.com puts a limit to the size of the repository you can add to github online. At the moment this limit lies at 10GB, with the limit of the size of individual files being 100MB. The idea behind git is that it tracks incremental changes in small files. It is not meant for data storage. If you have large files in your repository, it might be good to add them to a .gitignore file.\nThe .gitignore file has the purpose to list all files in a repository that are being ignored and not tracked by git. This can be large files, or other files that you might not want to track (for example system files like .DS, data, or the gitignore file itself etc).\n\n\nOptional: add a .gitignore file to your repository\nOpen Sublime and create a new file. Save it under the name .gitignore (the “.” is important). Add one line with the name of a new file, for example test.md. Commit those changes.\n\nCreate the file test.md in your repository. Git should not be tracking the creation or changes in that file.\n\n\nAttention: the .gitignore works only for files that have not yet been added to be tracked by git. “Untracking” files that have been tracked previously (for example because you have already committed them) requires the command line."
+    "text": "File size limits and licenses\n\nFile size limits and gitignore\nGithub.com puts a limit to the size of the repository you can add to github online. At the moment this limit lies at 10GB, with the limit of the size of individual files being 100MB. The idea behind git is that it tracks incremental changes in small files. It is not meant for data storage. If you have large files in your repository, it might be good to add them to a .gitignore file.\nThe .gitignore file has the purpose to list all files in a repository that are being ignored and not tracked by git. This can be large files, or other files that you might not want to track (for example system files like .DS, data, or the gitignore file itself etc).\n\n\nOptional: add a .gitignore file to your repository\nOpen Sublime and create a new file. Save it under the name .gitignore (the “.” is important). Add one line with the name of a new file, for example test.md. Commit those changes.\n\nCreate the file test.md in your repository. Git should not be tracking the creation or changes in that file.\n\n\nAttention: the .gitignore works only for files that have not yet been added to be tracked by git. “Untracking” files that have been tracked previously (for example because you have already committed them) requires the command line.",
+    "crumbs": [
+      "Git on your local machine",
+      "Importing an existing project"
+    ]
   },
   {
     "objectID": "Github_desktop2.html#adding-a-license-file",
     "href": "Github_desktop2.html#adding-a-license-file",
     "title": "Importing an existing project",
     "section": "Adding a license file",
-    "text": "Adding a license file\nIt is good practice to add a license.md file to everything you publish on github. Different licenses can be found here - usually it is enough to copy the text of your preferred license into the license.md."
+    "text": "Adding a license file\nIt is good practice to add a license.md file to everything you publish on github. Different licenses can be found here - usually it is enough to copy the text of your preferred license into the license.md.",
+    "crumbs": [
+      "Git on your local machine",
+      "Importing an existing project"
+    ]
   },
   {
     "objectID": "Github_desktop.html#i.-cloning-a-repository-from-github-online-onto-your-local-machine",
     "href": "Github_desktop.html#i.-cloning-a-repository-from-github-online-onto-your-local-machine",
     "title": "Github Desktop",
     "section": "I. Cloning a repository from Github online onto your local machine",
-    "text": "I. Cloning a repository from Github online onto your local machine\nLet’s start with making a local copy of an existing online repository. This processing is called cloning.\n\n\n\nCreating a cope of an online repository on your machine is called cloning the repository"
+    "text": "I. Cloning a repository from Github online onto your local machine\nLet’s start with making a local copy of an existing online repository. This processing is called cloning.\n\n\n\nCreating a cope of an online repository on your machine is called cloning the repository",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Version_control.html#merge-conflicts",
     "href": "Version_control.html#merge-conflicts",
     "title": "Merge conflicts",
     "section": "Merge conflicts",
-    "text": "Merge conflicts\nDifferent edits and commits to the same file on different branches or PRs of different versions of a file result in merge conflicts. Merge conflicts require a manual resolution. Git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!"
+    "text": "Merge conflicts\nDifferent edits and commits to the same file on different branches or PRs of different versions of a file result in merge conflicts. Merge conflicts require a manual resolution. Git will warn you that a PR cannot be merged automatically if merge conflicts arise. Be warned, merge conflicts can be a real headache and the best way to deal with them is to avoid them!",
+    "crumbs": [
+      "Version control",
+      "Merge conflicts"
+    ]
   },
   {
     "objectID": "Version_control.html#create-a-merge-conflict",
     "href": "Version_control.html#create-a-merge-conflict",
     "title": "Merge conflicts",
     "section": "Create a merge conflict",
-    "text": "Create a merge conflict\nGo to your online repository of Git_course_training_repo. Create a file named merge_conflict.md and write in the first line: “Practicing merge conflicts”. Commit your changes to the main branch.\n\nClick on the branch symbol with the label main and create a new branch dev from main.\n\nGo back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write on the second line: Creating a merge conflict”. Commit those changes.\n\nNavigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.\n\nCreate a PR from dev to main. Git will warn you that the branches cannot automatically be merged. Click create PR regardless. You have created a merge conflict!"
+    "text": "Create a merge conflict\nGo to your online repository of Git_course_training_repo. Create a file named merge_conflict.md and write in the first line: “Practicing merge conflicts”. Commit your changes to the main branch.\n\nClick on the branch symbol with the label main and create a new branch dev from main.\n\nGo back to the main branch. Open the merge_conflict.md by clicking on the pencil item and write on the second line: Creating a merge conflict”. Commit those changes.\n\nNavigate to the dev branch. Open the merge_conflict.md and write on the second line: “Bad idea”. Commit those changes.\n\nCreate a PR from dev to main. Git will warn you that the branches cannot automatically be merged. Click create PR regardless. You have created a merge conflict!",
+    "crumbs": [
+      "Version control",
+      "Merge conflicts"
+    ]
   },
   {
     "objectID": "Version_control.html#avoiding-merge-conflicts",
     "href": "Version_control.html#avoiding-merge-conflicts",
     "title": "Merge conflicts",
     "section": "Avoiding merge conflicts",
-    "text": "Avoiding merge conflicts\nMerge conflicts can be a headache, thus the best way to deal with them is to avoid them.\n\nAlways sync your branches before working on them and before opening a PR.\nMake small and incremental commits."
+    "text": "Avoiding merge conflicts\nMerge conflicts can be a headache, thus the best way to deal with them is to avoid them.\n\nAlways sync your branches before working on them and before opening a PR.\nMake small and incremental commits.",
+    "crumbs": [
+      "Version control",
+      "Merge conflicts"
+    ]
   },
   {
     "objectID": "Issues.html#where-to-open-an-issue",
     "href": "Issues.html#where-to-open-an-issue",
     "title": "Issues",
     "section": "Where to open an issue",
-    "text": "Where to open an issue\nYou can open issues both on your own (the origin repository) and the upstream repository. If you want to communicate with the developer and owner of the upstream repository, you better open the issue there. Issues on your own repository (the origin repository) can be good to keep track of a project."
+    "text": "Where to open an issue\nYou can open issues both on your own (the origin repository) and the upstream repository. If you want to communicate with the developer and owner of the upstream repository, you better open the issue there. Issues on your own repository (the origin repository) can be good to keep track of a project.",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Issues"
+    ]
   },
   {
     "objectID": "Issues.html#issue-labels",
     "href": "Issues.html#issue-labels",
     "title": "Issues",
     "section": "Issue labels",
-    "text": "Issue labels\nIn large projects, issues are frequent and often sorted by labels. Here some example issues: #bug #feature-wanted or #idea-for-discussion. Issue labels are very useful as they allow to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues and contributions that are adequate for beginners (i.e. fixing a typo or a broken link).\n\nChallenge: Look for beginner friendly issues.\n\n\nNavigate to the Github repository of the Turing Way Book.\nClick on the issues tab.\n\n\n\nClick on the labels tab.\n\n\n\nUse the search function to search for “good first issues”.\n\n\n\nClick on the label. What type of issues are listed under the “good first issue” label?"
+    "text": "Issue labels\nIn large projects, issues are frequent and often sorted by labels. Here some example issues: #bug #feature-wanted or #idea-for-discussion. Issue labels are very useful as they allow to sort through issues. A very good way to find ways to contribute on github online is via the label #good-first-issue. This label describes issues and contributions that are adequate for beginners (i.e. fixing a typo or a broken link).\n\nChallenge: Look for beginner friendly issues.\n\n\nNavigate to the Github repository of the Turing Way Book.\nClick on the issues tab.\n\n\n\nClick on the labels tab.\n\n\n\nUse the search function to search for “good first issues”.\n\n\n\nClick on the label. What type of issues are listed under the “good first issue” label?",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Issues"
+    ]
   },
   {
     "objectID": "Glossary.html#issue",
     "href": "Glossary.html#issue",
     "title": "Glossary",
     "section": "Issue",
-    "text": "Issue\nGitHub Issues allows you to create text-based descriptions of tasks, bugs, changes, and allow you to update your repository and document changes, It is also a way to communicate with other developers."
+    "text": "Issue\nGitHub Issues allows you to create text-based descriptions of tasks, bugs, changes, and allow you to update your repository and document changes, It is also a way to communicate with other developers.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Glossary.html#origin-repository",
     "href": "Glossary.html#origin-repository",
     "title": "Glossary",
     "section": "Origin repository",
-    "text": "Origin repository\nYour fork of a repository - the clone of the repository under your account."
+    "text": "Origin repository\nYour fork of a repository - the clone of the repository under your account.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Glossary.html#pull-request",
@@ -504,84 +660,128 @@
     "href": "Bits_and_pieces.html",
     "title": "Bits and pieces",
     "section": "",
-    "text": "We are almost done with the course! you have now a good starter knowledge for your git journey. However, would you be surprised that what this course covers is around 10% of all the features of Github?\nHere are some teasers for what else is possible with Github:"
+    "text": "We are almost done with the course! you have now a good starter knowledge for your git journey. However, would you be surprised that what this course covers is around 10% of all the features of Github?\nHere are some teasers for what else is possible with Github:",
+    "crumbs": [
+      "Version control",
+      "Bits and pieces"
+    ]
   },
   {
     "objectID": "Bits_and_pieces.html#contributing-to-open-source",
     "href": "Bits_and_pieces.html#contributing-to-open-source",
     "title": "Bits and pieces",
     "section": "Contributing to open source",
-    "text": "Contributing to open source\nWhile most people think that open source projects are only for developers, this is only half of the truth. Documentation, thus writing text for (non)-technical audiences about (non)technical topics, is equally part of the open source effort. The Google season of Docs is a documentation focused equivalent to the Google Summer of Code with the aim to support open source collaboration with technical writers."
+    "text": "Contributing to open source\nWhile most people think that open source projects are only for developers, this is only half of the truth. Documentation, thus writing text for (non)-technical audiences about (non)technical topics, is equally part of the open source effort. The Google season of Docs is a documentation focused equivalent to the Google Summer of Code with the aim to support open source collaboration with technical writers.",
+    "crumbs": [
+      "Version control",
+      "Bits and pieces"
+    ]
   },
   {
     "objectID": "Bits_and_pieces.html#good-git-practices",
     "href": "Bits_and_pieces.html#good-git-practices",
     "title": "Bits and pieces",
     "section": "Good git practices",
-    "text": "Good git practices\n\nMake small changes, commit frequently and write good commit messages.\nOne issue, one branch, one PR. Create an issue about an outstanding feature. Link a branch to work on that feature to the issue and then submit a PR with the fix, also linked to the issue.\nBe nice and polite when collaborating.\nAvoid committing directly into the main branch. Better: Have feature branches and a dev branch to test your commits. This is especially true when making PRs to foreign repositories. PRs to the main branch are rarely accepted\nLook for “good first issues” for beginners.\nAssign several reviewers for PRs.\nNever merge your own PRs."
+    "text": "Good git practices\n\nMake small changes, commit frequently and write good commit messages.\nOne issue, one branch, one PR. Create an issue about an outstanding feature. Link a branch to work on that feature to the issue and then submit a PR with the fix, also linked to the issue.\nBe nice and polite when collaborating.\nAvoid committing directly into the main branch. Better: Have feature branches and a dev branch to test your commits. This is especially true when making PRs to foreign repositories. PRs to the main branch are rarely accepted\nLook for “good first issues” for beginners.\nAssign several reviewers for PRs.\nNever merge your own PRs.",
+    "crumbs": [
+      "Version control",
+      "Bits and pieces"
+    ]
   },
   {
     "objectID": "Bits_and_pieces.html#resources",
     "href": "Bits_and_pieces.html#resources",
     "title": "Bits and pieces",
     "section": "Resources",
-    "text": "Resources\n\nHacktoberfest- look for good first issues.\nAwesome for beginners: A list of beginner-friendly projects on git.\nThe Turing Way Book - Book Dashes: Beginner friendly code and documentation sprints on a book for reproducible work flows, in a lovely community.\nGit and Github for librarians by Data Carpentries -uses the command line."
+    "text": "Resources\n\nHacktoberfest- look for good first issues.\nAwesome for beginners: A list of beginner-friendly projects on git.\nThe Turing Way Book - Book Dashes: Beginner friendly code and documentation sprints on a book for reproducible work flows, in a lovely community.\nGit and Github for librarians by Data Carpentries -uses the command line.",
+    "crumbs": [
+      "Version control",
+      "Bits and pieces"
+    ]
   },
   {
     "objectID": "Glossary.html#gitignore-file",
     "href": "Glossary.html#gitignore-file",
     "title": "Glossary",
     "section": ".gitignore file",
-    "text": ".gitignore file\nA file containing the name of all files, folders etc that should not be tracked. Lives in the root directory of your repo. Wildcards are allowed, for example *.png excludes all png files."
+    "text": ".gitignore file\nA file containing the name of all files, folders etc that should not be tracked. Lives in the root directory of your repo. Wildcards are allowed, for example *.png excludes all png files.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Glossary.html#pull-request-pr",
     "href": "Glossary.html#pull-request-pr",
     "title": "Glossary",
     "section": "Pull request (PR)",
-    "text": "Pull request (PR)\nPull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practice to discuss and review the changes with other developers."
+    "text": "Pull request (PR)\nPull requests tell others about the changes that you have made and pushed to a repository. Once the PR is opened, it is good practice to discuss and review the changes with other developers.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Glossary.html#license.md",
     "href": "Glossary.html#license.md",
     "title": "Glossary",
     "section": "License.md",
-    "text": "License.md\nThe license file in your repository tells everyone how they can interact with your content. Licenses can range from very conservative to very liberal (copy-left, open source). They are fundamental for the collaboration with others."
+    "text": "License.md\nThe license file in your repository tells everyone how they can interact with your content. Licenses can range from very conservative to very liberal (copy-left, open source). They are fundamental for the collaboration with others.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Glossary.html#readme.md",
     "href": "Glossary.html#readme.md",
     "title": "Glossary",
     "section": "Readme.md",
-    "text": "Readme.md\nThe Readme.md is usually the first file vistors see and interacts with on your repository. It should contain information about the purpose and content of the repository."
+    "text": "Readme.md\nThe Readme.md is usually the first file visitors see and interacts with on your repository. It should contain information about the purpose and content of the repository.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "Git_Github_Gitlab.html#github-the-platform",
     "href": "Git_Github_Gitlab.html#github-the-platform",
     "title": "Git, Gitlab, Github",
     "section": "Github: The platform",
-    "text": "Github: The platform\n\n\n\n\n\n\nGitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It’s widely used for open-source projects, personal projects, and team collaboration."
+    "text": "Github: The platform\n\n\n\n\n\n\n\n\n\nGitHub is a web-based platform built around Git that provides a centralized hosting service for Git repositories. It adds a graphical user interface (GUI) on top of Git, making it easier to perform common Git operations like creating repositories, managing branches, and collaborating with others. GitHub also offers additional features such as issue tracking, pull requests, code review tools, and project management capabilities. It’s widely used for open-source projects, personal projects, and team collaboration.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "Git, Gitlab, Github"
+    ]
   },
   {
     "objectID": "Git_Github_Gitlab.html#gitlab-a-competitor",
     "href": "Git_Github_Gitlab.html#gitlab-a-competitor",
     "title": "Git, Gitlab, Github",
     "section": "Gitlab: A competitor",
-    "text": "Gitlab: A competitor\n\n\n\n\n\n\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management, issue tracking, and pull requests."
+    "text": "Gitlab: A competitor\n\n\n\n\n\n\n\n\n\nGitLab is another web-based platform that provides hosting for Git repositories, similar to GitHub. It offers similar features such as repository management, issue tracking, and pull requests.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "Git, Gitlab, Github"
+    ]
   },
   {
     "objectID": "Creating_your_first_repository.html#congratulations-you-have-created-your-first-repository",
     "href": "Creating_your_first_repository.html#congratulations-you-have-created-your-first-repository",
     "title": "Creating your first repository",
     "section": "Congratulations! You have created your first repository!",
-    "text": "Congratulations! You have created your first repository!"
+    "text": "Congratulations! You have created your first repository!",
+    "crumbs": [
+      "Github online and version control",
+      "Creating your first repository"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#images",
     "href": "Your_first_commit.html#images",
     "title": "Your first commit",
     "section": "Images",
-    "text": "Images\n![Soxi](img/A_cute_cat.jpg) renders to:\n\n\n\nSoxi"
+    "text": "Images\n![Soxi](img/A_cute_cat.jpg) renders to:\n\n\n\nSoxi",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#weblinks",
@@ -595,153 +795,251 @@
     "href": "Forking.html#fork-the-repository-into-your-account.",
     "title": "Forking",
     "section": "Fork the repository into your account.",
-    "text": "Fork the repository into your account.\n1. Click on the fork button on on the main page of the repository. You need to be logged into your Github.com account to create a fork.\n\nYou can leave everything the way git suggests it for now. Click create repository.\n\nA fork of the repository should now appear under your account name. You should also still see the original repository. I have added here a picture of a repository that I have forked into my account:\n\nNow go to the Add file tab. Click on it and select Create new file.\n\nCreate now a new .md file with a name of your liking (for example, yourname.md). Click on the editing button and add a line to the file. for example, state your favorite animal.\n\nCommit your changes. You have now added changes to your fork of the repository. Please note that these changes were only made to your repository. They are not (yet) part of my repository.\n\nChallenge: Think: Why is this separation between repositories useful?"
+    "text": "Fork the repository into your account.\n1. Click on the fork button on on the main page of the repository. You need to be logged into your Github.com account to create a fork.\n\nYou can leave everything the way git suggests it for now. Click create repository.\n\nA fork of the repository should now appear under your account name. You should also still see the original repository. I have added here a picture of a repository that I have forked into my account:\n\nNow go to the Add file tab. Click on it and select Create new file.\n\nCreate now a new .md file with a name of your liking (for example, yourname.md). Click on the editing button and add a line to the file. for example, state your favorite animal.\n\nCommit your changes. You have now added changes to your fork of the repository. Please note that these changes were only made to your repository. They are not (yet) part of my repository.\n\nChallenge: Think: Why is this separation between repositories useful?",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Forking"
+    ]
   },
   {
     "objectID": "Forking.html#origin-and-upstream-repository",
     "href": "Forking.html#origin-and-upstream-repository",
     "title": "Forking",
     "section": "Origin and upstream repository",
-    "text": "Origin and upstream repository\nTo differentiate between the fork and the original repository, Github has introduced special terms for those two repositories.\n\nThe fork in your account is called origin repository.\nThe repository the fork is forked from (my repo) is called upstream repository."
+    "text": "Origin and upstream repository\nTo differentiate between the fork and the original repository, Github has introduced special terms for those two repositories.\n\nThe fork in your account is called origin repository.\nThe repository the fork is forked from (my repo) is called upstream repository.",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Forking"
+    ]
   },
   {
     "objectID": "Forking.html#create-a-pull-request-to-the-upstream-repository",
     "href": "Forking.html#create-a-pull-request-to-the-upstream-repository",
     "title": "Forking",
     "section": "Create a pull request to the upstream repository",
-    "text": "Create a pull request to the upstream repository\nLet’s assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. In contrast to the previous PR, where you PR-ed between two branches that you owned, this time you will create a PR to a repository that you are not the owner of.\n\nGo back to the code section of your repository. Github.com should show you that you have changes in your repository that not part of the upstream repository (yet) similar to the screenshot below (2.):\n\nClick on the Contribute button. In the screenshot above, you can also see indicated that the upstream repository has changes that are not part of your origin repository yet (3.). This scenario can happen when the author of the upstream repository has made changes to the repo since you have forked the repository.\nIt is good practice to update your own repository before creating a PR. if you need to update your repository, click on the sync fork button and update your branch:\n\nOnce you have updated your branch (if necessary), create a pull request. Leave a nice message for the owner of the upstream repository (4.).\nCheck the upstream repository. You should see your PR under the PR section, marked as open. In contract to the previous PR, you won’t be able to merge this PR yourself, as you are not the owner of the upstream repository. Instead, you will have to wait for the owner of the upstream repo to accept your PR.\n\n\nChallenge: Think: Why is it a good idea to update (sync) your branch before opening a PR?"
+    "text": "Create a pull request to the upstream repository\nLet’s assume you consider your changes so meaningful that they should be integrated in the upstream repository. This is again achieved by creating a pull request. In contrast to the previous PR, where you PR-ed between two branches that you owned, this time you will create a PR to a repository that you are not the owner of.\n\nGo back to the code section of your repository. Github.com should show you that you have changes in your repository that not part of the upstream repository (yet) similar to the screenshot below (2.):\n\nClick on the Contribute button. In the screenshot above, you can also see indicated that the upstream repository has changes that are not part of your origin repository yet (3.). This scenario can happen when the author of the upstream repository has made changes to the repo since you have forked the repository.\nIt is good practice to update your own repository before creating a PR. if you need to update your repository, click on the sync fork button and update your branch:\n\nOnce you have updated your branch (if necessary), create a pull request. Leave a nice message for the owner of the upstream repository (4.).\nCheck the upstream repository. You should see your PR under the PR section, marked as open. In contract to the previous PR, you won’t be able to merge this PR yourself, as you are not the owner of the upstream repository. Instead, you will have to wait for the owner of the upstream repo to accept your PR.\n\n\nChallenge: Think: Why is it a good idea to update (sync) your branch before opening a PR?",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Forking"
+    ]
   },
   {
     "objectID": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine",
     "href": "Github_desktop.html#the-other-way-around-make-changes-to-your-online-repository-and-pull-them-onto-your-local-machine",
     "title": "Github Desktop",
     "section": "The other way around: make changes to your online repository and pull them onto your local machine",
-    "text": "The other way around: make changes to your online repository and pull them onto your local machine\nNow that you have established the connection between the repository on you local machine and Github online, any changes to your repository on Github online should be recorded by your github desktop application. You might have to click the fetch origin button.\n\nMake and commit changes in your online repository (edit file, commit changes - you should by now know how that works).\nClick the fetch origin button on your github desktop application, You should see something like this:\n\nPull the changes in your local repository."
+    "text": "The other way around: make changes to your online repository and pull them onto your local machine\nNow that you have established the connection between the repository on you local machine and Github online, any changes to your repository on Github online should be recorded by your github desktop application. You might have to click the fetch origin button.\n\nMake and commit changes in your online repository (edit file, commit changes - you should by now know how that works).\nClick the fetch origin button on your github desktop application, You should see something like this:\n\nPull the changes in your local repository.",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Github_desktop.html#cloning-a-repository",
     "href": "Github_desktop.html#cloning-a-repository",
     "title": "Github Desktop",
     "section": "Cloning a repository",
-    "text": "Cloning a repository\n\nNavigate to your fork of the Git_course_training_repo.\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine! Github desktop should open automatically in the folder that your repository was cloned to."
+    "text": "Cloning a repository\n\nNavigate to your fork of the Git_course_training_repo.\nClick on the green Code button. Select Open with Github Desktop.\n\nAccept the warning, if any. Clone the repository.\n\n\nThe repository now exists as a cope on your local machine! Github desktop should open automatically in the folder that your repository was cloned to.",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Version_control.html#resolving-the-merge-conflict",
     "href": "Version_control.html#resolving-the-merge-conflict",
     "title": "Merge conflicts",
     "section": "Resolving the merge conflict",
-    "text": "Resolving the merge conflict\nMerge conflicts require manual intervention and a selection of the changes that you would like to save.\n\nClick resolve merge conflict. You should be shown something like the following:\n\n\nYou can now edit the conflicting file. You have three choices:\n\nOnly accept the changes from main, thus remove the “&lt;&lt;&lt;&lt;&lt;&lt; dev Bad idea ======” part.\nOnly accepting the changes from dev, thus delete the “===== Creating a merge conflict &gt;&gt;&gt;&gt;&gt; main” part\nCreate a new file accepting both changes. (Delete all &lt;&lt;&lt;&lt;&lt;&lt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; and ======).\n\nOnce you have made you choice, click “mark conflict as resolved” and commit your changes."
+    "text": "Resolving the merge conflict\nMerge conflicts require manual intervention and a selection of the changes that you would like to save.\n\nClick resolve merge conflict. You should be shown something like the following:\n\n\nYou can now edit the conflicting file. You have three choices:\n\nOnly accept the changes from main, thus remove the “&lt;&lt;&lt;&lt;&lt;&lt; dev Bad idea ======” part.\nOnly accepting the changes from dev, thus delete the “===== Creating a merge conflict &gt;&gt;&gt;&gt;&gt; main” part\nCreate a new file accepting both changes. (Delete all &lt;&lt;&lt;&lt;&lt;&lt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; and ======).\n\nOnce you have made you choice, click “mark conflict as resolved” and commit your changes.",
+    "crumbs": [
+      "Version control",
+      "Merge conflicts"
+    ]
   },
   {
     "objectID": "Bits_and_pieces.html#publishing-on-github",
     "href": "Bits_and_pieces.html#publishing-on-github",
     "title": "Bits and pieces",
     "section": "Publishing on Github",
-    "text": "Publishing on Github\nThis website is hosted on github, using Quarto in RStudio and Netlify, a free web hosting service. Other options to publish via github are Jupyterbook, which can be hosted via github pages or also via Netlify. The Turing way book uses the second option (Jupyterbook & Netlify). An even more integrated option is Gitbook."
+    "text": "Publishing on Github\nThis website is hosted on github, using Quarto in RStudio and Netlify, a free web hosting service. Other options to publish via github are Jupyterbook, which can be hosted via github pages or also via Netlify. The Turing way book uses the second option (Jupyterbook & Netlify). An even more integrated option is Gitbook.",
+    "crumbs": [
+      "Version control",
+      "Bits and pieces"
+    ]
   },
   {
     "objectID": "Bits_and_pieces.html#congratulations-you-have-mastered-the-course",
     "href": "Bits_and_pieces.html#congratulations-you-have-mastered-the-course",
     "title": "Bits and pieces",
     "section": "Congratulations! You have mastered the course!",
-    "text": "Congratulations! You have mastered the course!"
+    "text": "Congratulations! You have mastered the course!",
+    "crumbs": [
+      "Version control",
+      "Bits and pieces"
+    ]
   },
   {
     "objectID": "Glossary.html#branch",
     "href": "Glossary.html#branch",
     "title": "Glossary",
     "section": "",
-    "text": "An identical copy of a repository. Branches are great to test features before pushing them into the main branch."
+    "text": "An identical copy of a repository. Branches are great to test features before pushing them into the main branch.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "What_is_git.html#background",
     "href": "What_is_git.html#background",
     "title": "What is git?",
     "section": "Background:",
-    "text": "Background:\nDr. Alice is a computational biologist working on a collaborative research project aimed at understanding the genetic factors influencing a specific disease. Her team comprises researchers from different institutions, and they need a centralized platform for data analysis and collaboration."
+    "text": "Background:\nDr. Alice is a computational biologist working on a collaborative research project aimed at understanding the genetic factors influencing a specific disease. Her team comprises researchers from different institutions, and they need a centralized platform for data analysis and collaboration.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "What is git?"
+    ]
   },
   {
     "objectID": "What_is_git.html#how-github-can-be-used",
     "href": "What_is_git.html#how-github-can-be-used",
     "title": "What is git?",
     "section": "How GitHub can be used:",
-    "text": "How GitHub can be used:\n\nCode Repository:\nDr. Alice creates a GitHub repository to host the research project’s codebase. This repository contains analysis scripts, data preprocessing pipelines, and documentation. Collaborators can clone the repository to access the latest code and contribute to it."
+    "text": "How GitHub can be used:\n\nCode Repository:\nDr. Alice creates a GitHub repository to host the research project’s codebase. This repository contains analysis scripts, data preprocessing pipelines, and documentation. Collaborators can clone the repository to access the latest code and contribute to it.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "What is git?"
+    ]
   },
   {
     "objectID": "What_is_git.html#data-sharing",
     "href": "What_is_git.html#data-sharing",
     "title": "What is git?",
     "section": "Data Sharing:",
-    "text": "Data Sharing:\nThe team collects and curates extensive genetic data. Using Git Large File Storage (LFS) on GitHub, they store the data files in the same repository, ensuring version-controlled access to the data. The data is well-organized and documented in the repository’s README.\n\nCollaborative Analysis:\nCollaborators, including Dr. Bob and Dr. Carol, fork Dr. Alice’s repository and create feature branches for specific analysis tasks. They make changes, run experiments, and submit pull requests back to the main repository for review.\n\n\nIssue Tracking:\nDr. Alice uses GitHub’s issue tracking system to create tasks for different aspects of the project. For example, they may have tasks for data preprocessing, statistical analysis, and visualization. This ensures that everyone on the team knows what needs to be done and helps manage their progress.\n\n\nPeer Review:\nDr. Alice and her team use the pull request feature for peer review. They can comment on specific lines of code, suggest improvements, and discuss the results directly in the pull request. This transparent and collaborative process ensures the quality of the analysis.\n\n\nProject Management:\nDr. Alice creates a project board on GitHub to track the progress of different analysis components. They can move tasks across different columns, such as “To Do,” “In Progress,” and “Done,” to visualize the status of each task.\n\n\nDocumentation:\nDr. Alice maintains comprehensive project documentation in Markdown format within the repository. This includes explanations of the data sources, analysis methods, and results. Collaborators can contribute to and refine this documentation over time.\n\n\nReproducibility:\nWith the code, data, and documentation all in one place on GitHub, Dr. Alice’s team ensures that their research is highly reproducible. Other researchers can access the repository to replicate and validate the findings.\n\n\nData Citations:\nAs the project progresses, Dr. Alice obtains a DOI for the GitHub repository, making it citable in research papers. This promotes recognition of their work and encourages other researchers to use and build upon their findings.\nBy using GitHub for this collaborative research project, Dr. Alice and her team streamline their data analysis, foster transparency, and maintain an organized and reproducible research workflow. The platform facilitates teamwork, enabling researchers from different institutions to work together effectively."
+    "text": "Data Sharing:\nThe team collects and curates extensive genetic data. Using Git Large File Storage (LFS) on GitHub, they store the data files in the same repository, ensuring version-controlled access to the data. The data is well-organized and documented in the repository’s README.\n\nCollaborative Analysis:\nCollaborators, including Dr. Bob and Dr. Carol, fork Dr. Alice’s repository and create feature branches for specific analysis tasks. They make changes, run experiments, and submit pull requests back to the main repository for review.\n\n\nIssue Tracking:\nDr. Alice uses GitHub’s issue tracking system to create tasks for different aspects of the project. For example, they may have tasks for data preprocessing, statistical analysis, and visualization. This ensures that everyone on the team knows what needs to be done and helps manage their progress.\n\n\nPeer Review:\nDr. Alice and her team use the pull request feature for peer review. They can comment on specific lines of code, suggest improvements, and discuss the results directly in the pull request. This transparent and collaborative process ensures the quality of the analysis.\n\n\nProject Management:\nDr. Alice creates a project board on GitHub to track the progress of different analysis components. They can move tasks across different columns, such as “To Do,” “In Progress,” and “Done,” to visualize the status of each task.\n\n\nDocumentation:\nDr. Alice maintains comprehensive project documentation in Markdown format within the repository. This includes explanations of the data sources, analysis methods, and results. Collaborators can contribute to and refine this documentation over time.\n\n\nReproducibility:\nWith the code, data, and documentation all in one place on GitHub, Dr. Alice’s team ensures that their research is highly reproducible. Other researchers can access the repository to replicate and validate the findings.\n\n\nData Citations:\nAs the project progresses, Dr. Alice obtains a DOI for the GitHub repository, making it citable in research papers. This promotes recognition of their work and encourages other researchers to use and build upon their findings.\nBy using GitHub for this collaborative research project, Dr. Alice and her team streamline their data analysis, foster transparency, and maintain an organized and reproducible research workflow. The platform facilitates teamwork, enabling researchers from different institutions to work together effectively.",
+    "crumbs": [
+      "Getting to know Git(hub)",
+      "What is git?"
+    ]
   },
   {
     "objectID": "Your_first_commit.html#the-readme.md",
     "href": "Your_first_commit.html#the-readme.md",
     "title": "Your first commit",
     "section": "",
-    "text": "We just created a README.md file when initializing your first repository.\nThe README.md is often the first item a visitor will see when visiting your repository. README files typically include information on:\n\nThe purpose and content of the rpository\nhow to contribute to the repository (sometimes separated in a different file called Contributing.md)\n\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:"
+    "text": "We just created a README.md file when initializing your first repository.\nThe README.md is often the first item a visitor will see when visiting your repository. README files typically include information on:\n\nThe purpose and content of the repository\nhow to contribute to the repository (sometimes separated in a different file called Contributing.md)\n\nThe ending .md is an indicator of the Markdown language. Markdown is a lightweight markup language that you can use to add formatting elements to plain text text documents. The documents for this website are also written in Markdown.\nExamples of the Markdown language:",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   },
   {
     "objectID": "Branching.html#creating-a-new-branch",
     "href": "Branching.html#creating-a-new-branch",
     "title": "Branching",
     "section": "",
-    "text": "Let’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive language the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits and changes to your repository and see whether you like them. If you are not happy with your changes, you can just disregard your branch and the changes will never affect the content of your main repository.\nDifferent branches can develop independently and in parallel of each other."
+    "text": "Let’s play with our newly created repository.\n\nChallenge: create a branch from your main repository\n\n1. Go to your new repository and click the drop down at the top of the file list that says branch: main\n\nThe default branch used to be called master branch; due to historic connotations of the word master and as part of a step towards more inclusive language the default branch has been renamed to main for new repositories. Older repositories still might have a master branch.\n\n\nCreate a branch Readme-edits. This branch will be a copy of your main branch.\n\nSwitch to your new branch.\nClick the edit button of the Readme.md file. Add a line to the Readme.md file.\nCommit your changes. In this case I have removed a line.\n\nYou should now see that your branch has recent edits.\n\nSwitch back to the main branch. You should see that the Readme.md file is in the state it was before branching.\nSwitch back to the Readme-edits branch.\n\nBranches are a good way to test edits and changes to your repository and see whether you like them. If you are not happy with your changes, you can just disregard your branch and the changes will never affect the content of your main repository.\nDifferent branches can develop independently and in parallel of each other.",
+    "crumbs": [
+      "Github online and version control",
+      "Branching"
+    ]
   },
   {
     "objectID": "Creating_your_first_repository.html#creating-a-new-repository",
     "href": "Creating_your_first_repository.html#creating-a-new-repository",
     "title": "Creating your first repository",
     "section": "",
-    "text": "You have two options when creating a new repository.\n\nClick on the + next to your profile image in the top right corner of the screen\nGo to the repositories tab within your profile page and click the New button.\n\n\n\n\n\n\n\nChallenge: Create a new repository.\n\n\nChoose one of the ways just described to initialize a new repository.\n\n\n\nName your repository - keep it short and precise, for example “My_first_repo” ( you might realize that Github also makes some more or less reasonable suggestions).\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository"
+    "text": "You have two options when creating a new repository.\n\nClick on the + next to your profile image in the top right corner of the screen\nGo to the repositories tab within your profile page and click the New button.\n\n\n\n\n\n\n\nChallenge: Create a new repository.\n\n\nChoose one of the ways just described to initialize a new repository.\n\n\n\nName your repository - keep it short and precise, for example “My_first_repo” ( you might realize that Github also makes some more or less reasonable suggestions).\nDescribe it (optional)\nSelect Public/Private. If you have a free account, all your repositories will be public.\nCheck the box to initialize your repository with a “Readme.md”\nClick Create repository",
+    "crumbs": [
+      "Github online and version control",
+      "Creating your first repository"
+    ]
   },
   {
     "objectID": "Github_desktop2.html#importing-an-existing-project-into-github-online",
     "href": "Github_desktop2.html#importing-an-existing-project-into-github-online",
     "title": "Importing an existing project",
     "section": "",
-    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File &gt; Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create a repository in the warning label.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content."
+    "text": "A second way of establishing an integration between your local machine and github online is to upload an existing project or file into github online.\nThere are two ways to do this:\n1 Navigate to an existing repository and upload a file via the add file button. Drag and drop your file or browse for it and commit your changes.\n\n\nCreate a new repository on github online from an exiting repository on your machine.\nYou have most likely already a repository somewhere that you would now start to track with git. Pushing an already locally existing repository to github online can be easily done with the command line. With Github desktop we need a little work around - the problem is that git is not yet initialized in your existing repository.\nIn Github Desktop, go to File &gt; Add local repository.\n\n\nNavigate to the repository your would like to add, select it and add it by clicking the blue button.\n\n\n\n\nNow Github Desktop should warn you that your repo is not yet a git repository (unless you have used git before in the repo). Click on create a repository.\n\nGive the repository an appropriate name or leave the current name. You can add a .gitignore file and a licence if you wish (both later). Click create a repository in the warning label.\n\nIn case you end up at step 5, click cancel. Your repository should have been added and you should see something like the following:\n\n\n\nPublish your repository to github online. it should appear there with all its content.",
+    "crumbs": [
+      "Git on your local machine",
+      "Importing an existing project"
+    ]
   },
   {
     "objectID": "Github_desktop.html#interaction-between-github-online-and-your-local-machine",
     "href": "Github_desktop.html#interaction-between-github-online-and-your-local-machine",
     "title": "Github Desktop",
     "section": "",
-    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you already have on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine."
+    "text": "We have been working on Github online up until now. This can be useful, but you might want to version control and collaborate on projects that you already have on your machine, or on programming scripts that you need to run and test on your local machine, such as python or R scripts. We will now move to the integration between Github online and your local machine.",
+    "crumbs": [
+      "Git on your local machine",
+      "Github Desktop"
+    ]
   },
   {
     "objectID": "Issues.html#collaborating-on-github",
     "href": "Issues.html#collaborating-on-github",
     "title": "Issues",
     "section": "",
-    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. Developers often open issues to indicate the lack of a feature or a problem in in a project. Issues can be assigned to a certain person, and they are often the base for a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue."
+    "text": "One additional vital feature on Github is Issues. Issues are the main tool for communication on Github. Developers often open issues to indicate the lack of a feature or a problem in in a project. Issues can be assigned to a certain person, and they are often the base for a pull request.\nGo back to the the upstream repository of the Git_course: https://github.com/likeajumprope/Git_course.\nClick on the issues button and open a new issue.\n\nLink the new issue to your PR by adding a #. Typing the # should allow you to select from all previous opened and closed PRs and issues:\n\nSubmit your new issue.",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Issues"
+    ]
   },
   {
     "objectID": "Pull_requests.html#about-pull-requests",
     "href": "Pull_requests.html#about-pull-requests",
     "title": "Pull requests (PRs)",
     "section": "",
-    "text": "You were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR."
+    "text": "You were able to merge this pull request right away because you are the owner of the repository - you made a PR to your own repository. This is not always the case - usually you want to add changes to a repository that you do not own (for example an open source project you want to contribute to). You won’t be able to merge the PR yourself then, but you will have to wait for the owner of your repository to accept your PR.",
+    "crumbs": [
+      "Github online and version control",
+      "Pull requests (PRs)"
+    ]
   },
   {
     "objectID": "Pull_requests.html#why-is-it-called-pull-request",
     "href": "Pull_requests.html#why-is-it-called-pull-request",
     "title": "Pull requests (PRs)",
     "section": "",
-    "text": "The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in."
+    "text": "The pull request is a request to have your changes pulled into the target branch. The action while doing this is called pushing, so you push the changes to the target directory and request the owner of the target repository to pull them in.\nThe idea behind pull requests is that you usually make them to a repository you do not own - you need to wait for the owner to accept your changes and pull them in.",
+    "crumbs": [
+      "Github online and version control",
+      "Pull requests (PRs)"
+    ]
   },
   {
     "objectID": "Version_control.html#a-hypothetical-scenario",
     "href": "Version_control.html#a-hypothetical-scenario",
     "title": "Merge conflicts",
     "section": "",
-    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one isolated tep in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version."
+    "text": "Git is really good at tracking changes made to documents as they move through time. Ideally, each version should be one isolated step in the linear history of the document. However, there are situations where versions conflict arise and it is not clear what version of a document is the most recent version.",
+    "crumbs": [
+      "Version control",
+      "Merge conflicts"
+    ]
   },
   {
     "objectID": "Forking.html#making-changes-to-someone-elses-repository",
     "href": "Forking.html#making-changes-to-someone-elses-repository",
     "title": "Forking",
     "section": "",
-    "text": "In the previous section we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository."
+    "text": "In the previous section we made changes to our own repository and we were able to accept the changes ourselves because we are owner of the repository.",
+    "crumbs": [
+      "Collaboration on Github online",
+      "Forking"
+    ]
+  },
+  {
+    "objectID": "Your_first_commit.html#web-links",
+    "href": "Your_first_commit.html#web-links",
+    "title": "Your first commit",
+    "section": "Web links",
+    "text": "Web links\nThis is a link to the [Github.com Wesbite.](https://github.com/) renders to:\nThis is a link to the Github.com Website.\nYou can learn about the markdown language here at this official resource and at this resource from Github.\n\nChallenge: Your first commit in markdown",
+    "crumbs": [
+      "Github online and version control",
+      "Your first commit"
+    ]
   }
 ]

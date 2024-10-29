@@ -8,7 +8,7 @@ Here's what you can expect to be doing over the next two hours:
 
 -   Creating, cloning, forking repositories
 
--   Working in branches to compare differnt versions of files
+-   Working in branches to compare different versions of files
 
 -   Working on the Github platform and with the Github Desktop Client
 

@@ -70,7 +70,7 @@ Let's have a look at Github Desktop.
 
 ## Make changes to your local repository
 
-You cannot make changes to your repository in Gthub Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use *Sublime* in this example.
+You cannot make changes to your repository in Github Desktop itself (it is not a text editor). This is why you need an external text editor. Choose the option to open the repository in an external editor. I use *Sublime* in this example.
 
 Regardless of the text editor, you should have a somewhat similar organisation of your repository in your text editor:
 

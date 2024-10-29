@@ -17,7 +17,7 @@ In addition it allows for:
 -   Massive resource of information, ideas, books, code, etc.
 -   Publishing and hosting of code and material, websites etc.
 
-# Git in a rsearch context
+# Git in a research context
 
 
 ## Background: 
