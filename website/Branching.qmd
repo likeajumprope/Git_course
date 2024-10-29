@@ -10,7 +10,7 @@ editor: visual
 
 A branch is an identical copy of the main repository (or any other branch you want to copy from). Branching allows you to implement and test changes before committing them into the main repository (your production branch).
 
-![Branches are copies of a repository. They allow to develop the repository in different directions.](img/Branching.png)
+![Branches are copies of a repository. They allow to develop the repository in different directions and create "alternate time lines"](img/Branching.png)
 
 ## Creating a new branch
 

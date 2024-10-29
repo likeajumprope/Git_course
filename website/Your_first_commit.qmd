@@ -54,9 +54,9 @@ You can learn about the markdown language [here at this official resource](https
 
 ## Commits on Github
 
-## What is a commit
+## What is a commit?
 
-The contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. A commit can be considered as a snapshot of the state of repository at the time of the commit, to which can be reversed back to (in theory). Commits hence allow to create a *track record of changes of the repository over time*. Git will not allow any changes to documents or files without committing them first.
+The contribution in Git is structured in commits. Commits are small, labeled changes to a file or item in a git repository. A commit can be considered as a snapshot of the state of repository at the time of the commit, to which can be reversed back to (in theory). Commits hence allow to create a *track record of changes of the repository over time*. Git will not allow to save any changes to documents or files without committing them first.
 
 ![Contributions on Github are called commits. Commits are annotated snapshots of files and documents](img/commits.png)
 
