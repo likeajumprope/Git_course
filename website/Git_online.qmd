@@ -8,7 +8,7 @@ The repositories on Github are divided in two types of repositories:
 
 -   Those you have writing access to (your repositories)
 
--   Repositories of other people that you can only view
+-   Repositories belonging to people that you can only view
 
 > Challenge: Log into your github account.
 
@@ -26,7 +26,7 @@ While you don't have writing access to most repositories, they provide a great r
 
 ![](img/Search.png)
 
-The search reveals all repositories that have the word "librarian; in them. In addition to Issues, Discussions, Usernames etc with the word.
+The search reveals all repositories that have the word "Open Science"; in them. In addition to Issues, Discussions, Usernames etc. with that term.
 
 ![](img/Repositories.png)
 
