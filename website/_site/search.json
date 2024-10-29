@@ -25,7 +25,10 @@
     "href": "Setup_and_instructions.html",
     "title": "Setup and Instructions",
     "section": "",
-    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare differnt versions of files\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\n\n\nCode of Conduct\nAll interactions in this workshop will be governed by the VALA tech CAMP code of conduct.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code."
+    "text": "This workshop is to introduce you to GitHub and show how it can be used for collaborative projects, such as book sprints and sharing training materials.\nHere’s what you can expect to be doing over the next two hours:\n\nCreating, cloning, forking repositories\nWorking in branches to compare differnt versions of files\nWorking on the Github platform and with the Github Desktop Client\nGood collaborative (reproducible) practices\n\n\nCode of Conduct\nAll interactions in this workshop shall be governed by respect, constructive engagement, and kindness.\n\n\nEssential setup\nFor this workshop you will need:\n\nAn account on Github.com. I recommend making it secure using 2-factor authentication.\nGithub Desktop.\nA text editor of your choice. Good options are Sublime Text or more advanced, Visual Studio Code.",
+    "crumbs": [
+      "Setup and Instructions"
+    ]
   },
   {
     "objectID": "What_is_git.html",
