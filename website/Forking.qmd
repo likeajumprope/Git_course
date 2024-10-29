@@ -36,7 +36,7 @@ Now go to the *Add file* tab. Click on it and select *Create new file*.
 
 ![](img/Forking5.png)
 
-Create now a new .md file with a name of your liking (for example, *yourname.md*). Click on the editing button and add a line to the file. for example, state your favorite animal.
+Create now a new .md file with a name of your liking (for example, *yourname.md*). Click on the editing button and add a line to the file. As a suggestion, state your favorite animal.
 
 ![](img/Collaborating1.png)
 
