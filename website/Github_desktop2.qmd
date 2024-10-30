@@ -10,7 +10,7 @@ A second way of establishing an integration between your local machine and githu
 
 There are two ways to do this:
 
-1 Navigate to an existing repository and upload a file via the *add file* button. Drag and drop your file or browse for it and commit your changes.
+1\. Navigate to an existing repository and upload a file via the *add file* button. Drag and drop your file or browse for it and commit your changes.
 
 ![](img/Addfile.png)
 
